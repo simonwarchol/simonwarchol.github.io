@@ -25,6 +25,9 @@ p{
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	text-align: center;
 }
+p.block{
+	text-alligh: left;
+}
 a.link{
 	font-weight: bold;
   	font-size: 20px;
