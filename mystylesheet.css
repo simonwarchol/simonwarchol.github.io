@@ -40,9 +40,15 @@ p.block{
 	margin-left: auto;
 	text-align: left;
 }
+p.title{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	text-align: center;
+}
 a.link{
 	font-weight: bold;
   	font-size: 20px;
+	text-align: center;
+
 }
 li{
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
