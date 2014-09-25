@@ -2,6 +2,7 @@ img.center{
   	display: block;
   	margin-right: auto;
 	margin-left: auto;
+	width:300px;
 }
 h1.title {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
