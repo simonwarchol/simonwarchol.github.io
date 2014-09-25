@@ -6,9 +6,7 @@ img.center{
 h1.title {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   	font-weight: bold;
-  	color: #fff;
   	font-size: 32px;
-  	display: block;
-  	margin-right: auto;
-	margin-left: auto;
+	text-align: center;
+
 }
