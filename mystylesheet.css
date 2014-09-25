@@ -1,3 +1,5 @@
-IMG.portrait{
-	vertical-allign:middle	
+img.center{
+  	display: block;
+  	margin-right: auto;
+	margin-left: auto;
 }
