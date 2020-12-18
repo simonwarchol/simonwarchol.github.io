@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Simon Warchol
-title: Person
-email: simon.a.warchol@gmail.com
+title: Free-Spirited Blond
+email: simon.a.warchol - gmail
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
@@ -42,7 +42,9 @@ about_content: | # this will include new lines to allow paragraphs
     Fellow @ [VCG](https://vcg.seas.harvard.edu/). Formerly Software @ [Bullhorn](http://bullhorn.com/),
     BS in Computer Science @ [Tufts](https://www.tufts.edu/)
 
-  My research focuses on visual analytics, with a particular emphasis on the visualization and analysis of spatial data. I am interested in issues of scalability and seek to leverage distributed, parallel, and GPU-accelerated computing to visualize and analyze large and highly multiplexed data.
+  My research focuses on visual analytics, with a particular emphasis on the visualization and analysis of
+  spatial data. I am interested in issues of scalability and seek to leverage distributed, parallel,
+  and GPU-accelerated computing to visualize and analyze large and highly multiplexed data.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
