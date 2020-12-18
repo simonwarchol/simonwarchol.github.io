@@ -38,12 +38,9 @@ stackoverflow_username: "12807789"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  ME in Computational Science and Engineering Student @ [Harvard SEAS](https://www.seas.harvard.edu/).
-
-
   Fellow and Graduate Student Researcher @ the [Visual Computing Group](https://vcg.seas.harvard.edu/).
 
-  BS in Computer Science @ [Tufts](https://www.tufts.edu/).
+  ME in Computational Science and Engineering Student @ [Harvard SEAS](https://www.seas.harvard.edu/).
 
   My research focuses on visual analytics, with a particular emphasis on the visualization and analysis of
   spatial data. I am interested in issues of scalability and seek to leverage distributed, parallel,
