@@ -2,17 +2,26 @@
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
+# Content configuration version
+version: 2
+
 # Personal info
 name: Simon Warchol
 title: Person
-email: simon.a.warchol(at)gmail.com
+email: simon.a.warchol@gmail.com
+# email_title: Email (Email title override)
 #phone: Your phone number (optional)
-cv: "resume.pdf"
+# phone_title: Phone (Phone title override)
 #website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
 
 # Social links
 #twitter_username: jekyllrb
 github_username:  simonwarchol
+stackoverflow_username: "12807789"
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
@@ -22,34 +31,121 @@ github_username:  simonwarchol
 #pinterest_username: jekyll
 #youtube_username: jekyll
 #googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
+
 
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   ME in Computational Science and Engineering Student @ [Harvard SEAS](https://www.seas.harvard.edu/).
-  Fellow @ [VCG](https://vcg.seas.harvard.edu/). Free-spirited blond. Formerly Software @ [Bullhorn](http://bullhorn.com/),
-  BS in Computer Science @ [Tufts](https://www.tufts.edu/)
+    Fellow @ [VCG](https://vcg.seas.harvard.edu/). Formerly Software @ [Bullhorn](http://bullhorn.com/),
+    BS in Computer Science @ [Tufts](https://www.tufts.edu/)
 
+  My research focuses on visual analytics, with a particular emphasis on the visualization and analysis of spatial data. I am interested in issues of scalability and seek to leverage distributed, parallel, and GPU-accelerated computing to visualize and analyze large and highly multiplexed data.
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: CyCIF Viewer
+        link: github.com/labsyspharm/cycif_viewer/
+        description: | # this will include new lines to allow paragraphs
+          A flexible and scalable application for the analysis and display of multiplexed cell tissue data.
 
-# Projects Section <mark>like this</mark>.
-# projects_title: Projects #(Use this to override about projects section title)
+          Developed between the [Visual Computing Group](https://vcg.seas.harvard.edu/)
+          at the [John A. Paulson School Of Engineering And Applied Sciences](https://www.seas.harvard.edu/)
+          and the [Laboratory of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/)
+          at [Harvard Medical School](https://hms.harvard.edu/).
 
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+      - layout: left
+        title: Bias in NLP Embeddings
+        link: warchol.medium.com/bias-in-nlp-embeddings-b1dabb8bbe20
 
-# Education Section
-# education_title: Education #(Use this to override about education section title)
+        description: | # this will include new lines to allow paragraphs
+          Assessing bias in NLP embeddings and transformer-based models.
+          Using fine-tuning on BERT to mitigate this bias.
 
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          Final Project for [AC295](https://harvard-iacs.github.io/2020F-AC295/), "Topics in Applied Computation:
+                                                                                   Advanced Practical Data Science."
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: left
+        title: Population prediction via CNNs and geospatial imagery
+        link: github.com/chickert/geospatial_analysis
+        description: | # this will include new lines to allow paragraphs
+          Using Google Earth Engine, satellite imagery, and Convolutional Neural Networks to
+          predict the population of US Census Tracks.
+
+          Final Project for [Michael Brenner](https://www.seas.harvard.edu/brenner/Home.html)'s APMTH 216 "Inverse Problems in Science and Engineering."
+
+      - layout: left
+        title: Parallel Graph Algorithms
+        link: github.com/kaelanelson/CS205-Final-Project
+        description: | # this will include new lines to allow paragraphs
+          Hybrid parallel implementations of graph algorithms in MPI and OpenMP.
+
+          Final Project for [CS205](https://harvard-iacs.github.io/2020-CS205/), "Computing Foundations for Computational Science."
+
+      - layout: left
+        title: Visualizing Mass Incarceration
+        link: cs171-final-project.github.io/Final-Project
+        description: | # this will include new lines to allow paragraphs
+          Visualizing mass incarceration and the  school-to-prison pipeline in the US with D3.
+
+          Final Project for [CS171](https://www.cs171.org/2020/index.html).
+
+      - layout: left
+        title: Hidebar
+        link: rb.gy/mo3t2d
+        description: | # this will include new lines to allow paragraphs
+          Lightweight chrome extension written in JavaScript and JQuery to dynamically
+          hide and display Reddit sidebars depending on window dimensions and subreddit styling.
+
+      - layout: left
+        title: DMachine
+        link: github.com/simonwarchol/DMachine
+        description: | # this will include new lines to allow paragraphs
+          Visualizing NBA team & player defense using Processing.js.
+
+      - layout: left
+        title: NBA Height & Weight Trends
+        link: simonwarchol.github.io/NBA-Height-Weight/
+        description: | # this will include new lines to allow paragraphs
+          Scraping Basketball-Reference with Beautiful Soup and visualizing
+          the trends in these data with D3.
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Institution name
+        sub_title: Qualifications (eg. BA Performing Arts)
+        caption: Date Range (eg. 2016 - 2019)
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
@@ -60,10 +156,9 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
 
-exclude: [
-  "makefile",
+exclude : [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
@@ -74,4 +169,4 @@ exclude: [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-]
+  ]
