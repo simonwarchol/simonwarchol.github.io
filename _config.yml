@@ -43,12 +43,31 @@ about_content: | # this will include new lines to allow paragraphs
 
   Fellow and Graduate Student Researcher @ the [Visual Computing Group](https://vcg.seas.harvard.edu/).
 
-  BS in Computer Science @ [Tufts](https://www.tufts.edu/)
+  BS in Computer Science @ [Tufts](https://www.tufts.edu/).
 
   My research focuses on visual analytics, with a particular emphasis on the visualization and analysis of
   spatial data. I am interested in issues of scalability and seek to leverage distributed, parallel,
   and GPU-accelerated computing to visualize and analyze large and highly multiplexed data.
 content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Harvard University
+        sub_title: Master of Engineering
+        caption: 2019 - Present
+        description: | # this will include new lines to allow paragraphs
+          Master's in Computational Science and Engineering;
+          GPA: 4.0 / 4.0
+      - layout: top-right
+        title: Tufts University
+        sub_title: Bachelor of Science
+        caption: 2011 - 2015
+        description: | # this will include new lines to allow paragraphs
+          Magna Cum Laude;
+          Major: Computer Science;
+          Minor: Economics
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -130,17 +149,7 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
