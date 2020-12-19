@@ -22,6 +22,7 @@ darkmode: true
 #twitter_username: jekyllrb
 github_username:  simonwarchol
 stackoverflow_username: "12807789"
+resume_download: assets/CV.pdf
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
@@ -36,7 +37,7 @@ stackoverflow_username: "12807789"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Fellow and Graduate Student Researcher @ the [Visual Computing Group](https://vcg.seas.harvard.edu/).
 
@@ -49,22 +50,14 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: left
         title: Harvard University
-        sub_title: Master of Engineering
+        sub_title: Master of Engineering in Computational Science and Engineering
         caption: 2019 - Present
-        description: | # this will include new lines to allow paragraphs
-          Master's in Computational Science and Engineering;
-          GPA: 4.0 / 4.0
-      - layout: top-right
+      - layout: left
         title: Tufts University
-        sub_title: Bachelor of Science
+        sub_title: Bachelor of Science in Computer Science
         caption: 2011 - 2015
-        description: | # this will include new lines to allow paragraphs
-          Magna Cum Laude;
-          Major: Computer Science;
-          Minor: Economics
-
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
