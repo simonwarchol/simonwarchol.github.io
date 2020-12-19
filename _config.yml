@@ -50,13 +50,15 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top-left
         title: Harvard University
-        sub_title: Master of Engineering in Computational Science and Engineering
+        sub_title: Master of Engineering
+        degree: Computational Science & Engineering
         caption: 2019 - Present
-      - layout: left
+      - layout: top-left
         title: Tufts University
-        sub_title: Bachelor of Science in Computer Science
+        sub_title: Bachelor of Science
+        degree: Computer Science
         caption: 2011 - 2015
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
