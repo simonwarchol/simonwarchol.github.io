@@ -43,9 +43,13 @@ about_content: | # this will include new lines to allow paragraphs
 
   ME in Computational Science and Engineering Student @ [Harvard SEAS](https://www.seas.harvard.edu/).
 
-  My research focuses on visual analytics, with a particular emphasis on the visualization and analysis of
-  spatial data. I am interested in issues of scalability and seek to leverage distributed, parallel,
+  My research focuses on visual analytics, with a particular emphasis on spatial data.
+  I am interested in issues of scalability and seek to  leverage distributed, parallel,
   and GPU-accelerated computing to visualize and analyze large and highly multiplexed data.
+
+  Currently working with [the Lab of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/),
+  looking at multi-channel microscopy image data.
+  
 content:
   - title: Education
     layout: list
