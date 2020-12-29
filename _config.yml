@@ -50,22 +50,31 @@ about_content: | # this will include new lines to allow paragraphs
   Currently working with the [Lab of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/),
   looking at multi-channel microscopy image data.
 
-  I was raised in St. Louis, MO. I currently live in Cambridgeport, Cambridge, MA.
-  
+  I was raised in St. Louis, MO. I currently live in Cambridgeport, Cambridge, MA. I like it here.
+
+  I have some other interests. They include:
+    - Sad Indie Music: [Phoebe Bridgers](https://www.youtube.com/watch?v=WJ9-xN6dCW4), [The National](https://www.youtube.com/watch?v=eEe_yCVLQSc),
+    [Sufjan Stevens](https://www.youtube.com/watch?v=9FX34TjJe-c&t=488s), [Destroyer](https://www.youtube.com/watch?v=Su-N-iH8CgI)
+    - Beer: [Lamplighter](https://lamplighterbrewing.com/), [Vitamin Sea](https://vitaminseabrewing.com/),
+    [Side Project](https://www.sideprojectbrewing.com/)
+    - Housing and Community Activism: [A Better Cambridge](https://www.abettercambridge.org/)
+    - [Lake Megunticook](https://www.megunticook.org/)
+    - My 2009 Prius
+
 content:
-#  - title: Education
-#    layout: list
-#    content:
-#      - layout: top-left
-#        title: Harvard University
-#        sub_title: Master of Engineering
-#        degree: Computational Science & Engineering
-#        caption: 2019 - Present
-#      - layout: top-left
-#        title: Tufts University
-#        sub_title: Bachelor of Science
-#        degree: Computer Science
-#        caption: 2011 - 2015
+  #  - title: Education
+  #    layout: list
+  #    content:
+  #      - layout: top-left
+  #        title: Harvard University
+  #        sub_title: Master of Engineering
+  #        degree: Computational Science & Engineering
+  #        caption: 2019 - Present
+  #      - layout: top-left
+  #        title: Tufts University
+  #        sub_title: Bachelor of Science
+  #        degree: Computer Science
+  #        caption: 2011 - 2015
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
