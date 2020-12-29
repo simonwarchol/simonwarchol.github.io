@@ -19,7 +19,7 @@ email: simon.a.warchol@gmail.com
 darkmode: true
 
 # Social links
-#twitter_username: jekyllrb
+twitter_username: simonwarchol
 github_username:  simonwarchol
 stackoverflow_username: "12807789"
 resume_download: assets/CV.pdf
@@ -37,7 +37,7 @@ resume_download: assets/CV.pdf
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.png
+about_profile_image: images/profile.svg
 about_content: | # this will include new lines to allow paragraphs
   Fellow and Graduate Student Researcher @ the [Visual Computing Group](https://vcg.seas.harvard.edu/).
 
@@ -47,23 +47,27 @@ about_content: | # this will include new lines to allow paragraphs
   I am interested in issues of scalability and seek to  leverage distributed, parallel,
   and GPU-accelerated computing to visualize and analyze large and highly multiplexed data.
 
-  Currently working with [the Lab of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/),
+  Currently working with the [Lab of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/),
   looking at multi-channel microscopy image data.
+
+  I was raised in St. Louis. I currently live in Cambridgeport, Cambridge, MA.  It is a lovely place.
+
+
   
 content:
-  - title: Education
-    layout: list
-    content:
-      - layout: top-left
-        title: Harvard University
-        sub_title: Master of Engineering
-        degree: Computational Science & Engineering
-        caption: 2019 - Present
-      - layout: top-left
-        title: Tufts University
-        sub_title: Bachelor of Science
-        degree: Computer Science
-        caption: 2011 - 2015
+#  - title: Education
+#    layout: list
+#    content:
+#      - layout: top-left
+#        title: Harvard University
+#        sub_title: Master of Engineering
+#        degree: Computational Science & Engineering
+#        caption: 2019 - Present
+#      - layout: top-left
+#        title: Tufts University
+#        sub_title: Bachelor of Science
+#        degree: Computer Science
+#        caption: 2011 - 2015
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
