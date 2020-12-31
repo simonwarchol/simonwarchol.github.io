@@ -57,11 +57,12 @@ about_content: | # this will include new lines to allow paragraphs
     [Sufjan Stevens](https://www.youtube.com/watch?v=9FX34TjJe-c&t=488s), [Destroyer](https://www.youtube.com/watch?v=Su-N-iH8CgI)
     - Beer: [Lamplighter](https://lamplighterbrewing.com/), [Vitamin Sea](https://vitaminseabrewing.com/),
     [Side Project](https://www.sideprojectbrewing.com/)
-    - Housing and Community Activism: [A Better Cambridge](https://www.abettercambridge.org/)
     - [Lake Megunticook](https://www.megunticook.org/)
     - My 2009 Prius
 
 content:
+      # - Housing and Community Activism: [A Better Cambridge](https://www.abettercambridge.org/)
+
   #  - title: Education
   #    layout: list
   #    content:
