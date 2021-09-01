@@ -39,21 +39,18 @@ resume_download: assets/CV.pdf
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.svg
 about_content: | # this will include new lines to allow paragraphs
-  Fellow and Graduate Student Researcher @ the [Visual Computing Group](https://vcg.seas.harvard.edu/).
+  PhD Student in Computer Science in the [Visual Computing Group](https://vcg.seas.harvard.edu/) at [Harvard SEAS](https://www.seas.harvard.edu/).
 
-  ME in Computational Science and Engineering Student @ [Harvard SEAS](https://www.seas.harvard.edu/).
 
-  My research focuses on visual analytics, with a particular emphasis on spatial data.
-  I am interested in issues of scalability and seek to  leverage distributed, parallel,
-  and GPU-accelerated computing to visualize and analyze large and highly multiplexed data.
+  My research focuses on visual analytics and visualization of biomedical data.
 
   Currently working with the [Lab of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/),
-  looking at multi-channel microscopy image data.
+  working with multi-channel microscopy data.
 
-  I was raised in St. Louis, MO. I currently live in Cambridgeport, Cambridge, MA. I like it here.
+  I was raised in St. Louis, MO and have lived in Cambridge, MA since 2015.
 
   I have some other interests. They include:
-    - Sad Indie Music: [Phoebe Bridgers](https://www.youtube.com/watch?v=WJ9-xN6dCW4), [The National](https://www.youtube.com/watch?v=eEe_yCVLQSc),
+    - Sad Indie Music: [Lucy Dacus](https://www.youtube.com/watch?v=3y00ftsaNiA&t=178s), [Phoebe Bridgers](https://www.youtube.com/watch?v=WJ9-xN6dCW4), [The National](https://www.youtube.com/watch?v=eEe_yCVLQSc),
     [Sufjan Stevens](https://www.youtube.com/watch?v=9FX34TjJe-c&t=488s), [Destroyer](https://www.youtube.com/watch?v=Su-N-iH8CgI)
     - Beer: [Lamplighter](https://lamplighterbrewing.com/), [Vitamin Sea](https://vitaminseabrewing.com/),
     [Side Project](https://www.sideprojectbrewing.com/)
