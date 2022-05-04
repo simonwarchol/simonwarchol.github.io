@@ -50,51 +50,63 @@ about_content: | # this will include new lines to allow paragraphs
   I was raised in St. Louis, MO and have lived in Cambridge, MA since 2015.
 
   I have some other interests. They include:
-    - Sad Indie Music: [Lucy Dacus](https://www.youtube.com/watch?v=3y00ftsaNiA&t=178s), [Phoebe Bridgers](https://www.youtube.com/watch?v=WJ9-xN6dCW4), [The National](https://www.youtube.com/watch?v=eEe_yCVLQSc),
+    - Sad Indie Music: [boygenius](https://www.youtube.com/watch?v=96wDhimQ6nw&t=811s) and its members[¹](https://www.youtube.com/watch?v=3y00ftsaNiA&t=178s) [²](https://www.youtube.com/watch?v=WJ9-xN6dCW4) [³](https://www.youtube.com/watch?v=ZuGa4_4YB4o), [The National](https://www.youtube.com/watch?v=eEe_yCVLQSc),
     [Sufjan Stevens](https://www.youtube.com/watch?v=9FX34TjJe-c&t=488s), [Destroyer](https://www.youtube.com/watch?v=Su-N-iH8CgI)
     - Beer: [Lamplighter](https://lamplighterbrewing.com/), [Vitamin Sea](https://vitaminseabrewing.com/),
-    [Side Project](https://www.sideprojectbrewing.com/)
+    [Side Project](https://www.sideprojectbrewing.com/), [Oxbow](https://oxbowbeer.com/)
     - [Lake Megunticook](https://www.megunticook.org/)
     - My 2009 Prius
 
 content:
-      # - Housing and Community Activism: [A Better Cambridge](https://www.abettercambridge.org/)
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Scope2Screen&#58; Focus+Context Techniques for Pathology TumorAssessment in Multivariate Image Data
+        sub_title: Jessup J, Krueger R, *Warchol S*, Hoffer J, Muhlich J, Ritch CC, Gaglia G, Coy S, Chen Y, Lin J, Santagata S, Sorger PK, and Pfister H
+        link: https://vcg.seas.harvard.edu/publications/scope2screen
+        caption: IEEE Transactions on Visualization and Computer Graphics (IEEE VIS), 2021.
+        description: |
+           ![](https://vcg.seas.harvard.edu/content/3-publications/20211004-scope2screen/scope2screen_high_res.png)
+  - title: Awards
+    layout: list
+    content:
+      - layout: top-middle
+        title: Harvard University Certificate of Distinction in Teaching
+        sub_title: Fall 2021
+        caption: CS171&#58; Visualization
+        link: https://www.cs171.org/2021/
+      - layout: top-middle
+        title: Harvard University Certificate of Distinction in Teaching
+        sub_title: Spring 2021
+        caption: CS205&#58; Computing Foundations for Computational Science
+        link: https://harvard-iacs.github.io/2021-CS205/
+      - layout: top-middle
+        title: Harvard University Certificate of Distinction in Teaching
+        sub_title: Fall 2020
+        caption: CS107&#58; Systems Development for Computational Science
+        link: https://harvard-iacs.github.io/2020-CS107
 
-  #  - title: Education
-  #    layout: list
-  #    content:
-  #      - layout: top-left
-  #        title: Harvard University
-  #        sub_title: Master of Engineering
-  #        degree: Computational Science & Engineering
-  #        caption: 2019 - Present
-  #      - layout: top-left
-  #        title: Tufts University
-  #        sub_title: Bachelor of Science
-  #        degree: Computer Science
-  #        caption: 2011 - 2015
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: CyCIF Viewer
-        link: github.com/labsyspharm/cycif_viewer/
+      - layout: top-middle
+        title: Minerva Analysis
+        caption: Minerva Analysis an openseadragon based Muliplexed Image Data Visualization and Analysis Toolset. Sharing a common image viewer codebase (data import, rendering, linkage to tabular data), we currently offer tools for focus+context-based data exploration, interactive channel gating, cluster exploration, and spatial neighborhood analysis. Minerva Analysis is built with a python Flask backend and a Node.js javascript frontend.
+        link: https://github.com/labsyspharm/minerva_analysis
         description: | # this will include new lines to allow paragraphs
-          A flexible and scalable application for the analysis and display of multiplexed cell tissue data.
-
-          Developed between the [Visual Computing Group](https://vcg.seas.harvard.edu/)
-          at the [John A. Paulson School Of Engineering And Applied Sciences](https://www.seas.harvard.edu/)
-          and the [Laboratory of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/)
-          at [Harvard Medical School](https://hms.harvard.edu/).
+            ![](https://user-images.githubusercontent.com/31503434/146080160-99048e21-666d-4e48-8135-9c6d5fd41b50.png)
+      - layout: left
+        title: Zootle
+        link: https://zootle.me/
+        description: Zootle generates download links for Zotero groups containing more than 100 entries. These links can be used to sync bibliographies with Overleaf.
 
       - layout: left
         title: Bias in NLP Embeddings
         link: warchol.medium.com/bias-in-nlp-embeddings-b1dabb8bbe20
-
         description: | # this will include new lines to allow paragraphs
           Assessing bias in NLP embeddings and transformer-based models.
           Using fine-tuning on BERT to mitigate this bias.
-
           Final Project for [AC295](https://harvard-iacs.github.io/2020F-AC295/), "Topics in Applied Computation:
                                                                                    Advanced Practical Data Science."
 
@@ -104,44 +116,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           Using Google Earth Engine, satellite imagery, and Convolutional Neural Networks to
           predict the population of US Census Tracks.
-
           Final Project for [Michael Brenner](https://www.seas.harvard.edu/brenner/Home.html)'s APMTH 216 "Inverse Problems in Science and Engineering."
 
-      - layout: left
-        title: Parallel Graph Algorithms
-        link: github.com/kaelanelson/CS205-Final-Project
-        description: | # this will include new lines to allow paragraphs
-          Hybrid parallel implementations of graph algorithms in MPI and OpenMP.
-
-          Final Project for [CS205](https://harvard-iacs.github.io/2020-CS205/), "Computing Foundations for Computational Science."
-
-      - layout: left
-        title: Visualizing Mass Incarceration
-        link: cs171-final-project.github.io/Final-Project
-        description: | # this will include new lines to allow paragraphs
-          Visualizing mass incarceration and the  school-to-prison pipeline in the US with D3.
-
-          Final Project for [CS171](https://www.cs171.org/2020/index.html).
-
-      - layout: left
-        title: Hidebar
-        link: rb.gy/mo3t2d
-        description: | # this will include new lines to allow paragraphs
-          Lightweight chrome extension written in JavaScript and JQuery to dynamically
-          hide and display Reddit sidebars depending on window dimensions and subreddit styling.
-
-      - layout: left
-        title: DMachine
-        link: github.com/simonwarchol/DMachine
-        description: | # this will include new lines to allow paragraphs
-          Visualizing NBA team & player defense using Processing.js.
-
-      - layout: left
-        title: NBA Height & Weight Trends
-        link: simonwarchol.github.io/NBA-Height-Weight/
-        description: | # this will include new lines to allow paragraphs
-          Scraping Basketball-Reference with Beautiful Soup and visualizing
-          the trends in these data with D3.
 #  - title: Experience
 #    layout: list
 #    content:
