@@ -20,7 +20,7 @@ darkmode: true
 
 # Social links
 twitter_username: simonwarchol
-github_username:  simonwarchol
+github_username: simonwarchol
 stackoverflow_username: "12807789"
 resume_download: assets/CV.pdf
 #dribbble_username: jekyll
@@ -42,7 +42,7 @@ about_content: | # this will include new lines to allow paragraphs
   PhD Student in Computer Science in the [Visual Computing Group](https://vcg.seas.harvard.edu/) at [Harvard SEAS](https://www.seas.harvard.edu/).
 
 
-  My research focuses on visual analytics and visualization of biomedical data.
+  My research focuses on visual analytics and visualization for biomedical imaging data.
 
   Currently working with the [Lab of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/),
   working with multi-channel microscopy data.
@@ -58,16 +58,23 @@ about_content: | # this will include new lines to allow paragraphs
     - My 2009 Prius
 
 content:
-  - title: Publications # Title for the section
+  - title: Research # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Visinity&#58; Visual Spatial Neighborhood Analysis for Multiplexed Tissue Imaging Data
+        sub_title: <u>Warchol S</u>, Krueger R, Nirmal AJ, Gaglia G, Jessup J, Ritch CC, Hoffer H, Muhlich J, Burger M, Jacks T, Santagata S, Sorger PK, and Pfister H
+        link: https://doi.org/10.1101/2022.05.09.490039
+        caption: Preprint
+        description: |
+          ![](assets/VisinityTeaser.png)
+      - layout: top-middle
         title: Scope2Screen&#58; Focus+Context Techniques for Pathology TumorAssessment in Multivariate Image Data
-        sub_title: Jessup J, Krueger R, *Warchol S*, Hoffer J, Muhlich J, Ritch CC, Gaglia G, Coy S, Chen Y, Lin J, Santagata S, Sorger PK, and Pfister H
+        sub_title: Jessup J, Krueger R, <u>Warchol S</u>, Hoffer J, Muhlich J, Ritch CC, Gaglia G, Coy S, Chen Y, Lin J, Santagata S, Sorger PK, and Pfister H
         link: https://vcg.seas.harvard.edu/publications/scope2screen
         caption: IEEE Transactions on Visualization and Computer Graphics (IEEE VIS), 2021.
         description: |
-           ![](https://vcg.seas.harvard.edu/content/3-publications/20211004-scope2screen/scope2screen_high_res.png)
+          ![](https://vcg.seas.harvard.edu/content/3-publications/20211004-scope2screen/scope2screen_high_res.png)
   - title: Awards
     layout: list
     content:
@@ -95,7 +102,7 @@ content:
         caption: Minerva Analysis an openseadragon based Muliplexed Image Data Visualization and Analysis Toolset. Sharing a common image viewer codebase (data import, rendering, linkage to tabular data), we currently offer tools for focus+context-based data exploration, interactive channel gating, cluster exploration, and spatial neighborhood analysis. Minerva Analysis is built with a python Flask backend and a Node.js javascript frontend.
         link: https://github.com/labsyspharm/minerva_analysis
         description: | # this will include new lines to allow paragraphs
-            ![](https://user-images.githubusercontent.com/31503434/146080160-99048e21-666d-4e48-8135-9c6d5fd41b50.png)
+          ![](https://user-images.githubusercontent.com/31503434/146080160-99048e21-666d-4e48-8135-9c6d5fd41b50.png)
       - layout: left
         title: Zootle
         link: https://zootle.me/
@@ -154,14 +161,14 @@ plugins:
   - jekyll-seo-tag
 
 exclude: [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
 ]
