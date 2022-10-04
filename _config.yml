@@ -62,10 +62,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Lymphocyte networks are dynamic cellular communities in the immunoregulatory landscape of lung adenocarcinoma
+        sub_title: Gaglia G, Burger M, Ritch C, Rammos D, Dai Y, Crossland G, Tavana S, <u>Warchol S</u>, Jaeger A, Naranjo S, Coy S, Nirmal AJ,   Krueger R, Lin J, Pfister H, Sorger P, Jacks T, and Santagata S
+        link: https://doi.org/10.1101/2022.08.11.503237
+        caption: Preprint
+        description:
+      - layout: top-middle
         title: Visinity&#58; Visual Spatial Neighborhood Analysis for Multiplexed Tissue Imaging Data
         sub_title: <u>Warchol S</u>, Krueger R, Nirmal AJ, Gaglia G, Jessup J, Ritch CC, Hoffer H, Muhlich J, Burger M, Jacks T, Santagata S, Sorger PK, and Pfister H
-        link: https://doi.org/10.1101/2022.05.09.490039
-        caption: Preprint
+        link: https://doi.org/10.1109/TVCG.2022.3209378
+        caption: IEEE Transactions on Visualization and Computer Graphics
         description: |
           ![](assets/VisinityTeaser.png)
       - layout: top-middle
