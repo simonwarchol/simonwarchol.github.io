@@ -39,13 +39,11 @@ resume_download: assets/CV.pdf
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.svg
 about_content: | # this will include new lines to allow paragraphs
-  PhD Student in Computer Science in the [Visual Computing Group](https://vcg.seas.harvard.edu/) at [Harvard SEAS](https://www.seas.harvard.edu/).
-
+  PhD Student in Computer Science at [Harvard University](https://www.seas.harvard.edu/) advised by [Hanspeter Pfister](https://vcg.seas.harvard.edu/people/hanspeter-pfister) and [Peter Sorger](https://sysbio.med.harvard.edu/peter-sorger).
+  
+  Member of the [Visual Computing Group](https://vcg.seas.harvard.edu/) and the [Laboratory of Systems Pharmacology](https://labsyspharm.org/).
 
   My research focuses on visual analytics and visualization for biomedical imaging data.
-
-  Currently working with the [Lab of Systems Pharmacology](https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/),
-  working with multi-channel microscopy data.
 
   I was raised in St. Louis, MO and have lived in Cambridge, MA since 2015.
 
