@@ -3,12 +3,8 @@
     import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
     import {PortfolioTitle} from '$lib/params';
     import {useTitle} from '$lib/utils';
-
-
     const title = 'CV';
     const cv = '/warchol_cv.pdf'
-
-
 </script>
 
 <svelte:head>

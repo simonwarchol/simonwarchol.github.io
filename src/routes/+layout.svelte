@@ -2,7 +2,6 @@
     import NavMenu from '$lib/components/NavMenu.svelte';
     import '$lib/index.scss';
 
-    export const prerender = true;
 </script>
 
 <NavMenu/>

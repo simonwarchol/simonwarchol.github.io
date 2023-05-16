@@ -4,10 +4,13 @@
     import {PortfolioTitle} from '$lib/params';
     import type {SocialLink, SocialMedia} from '$lib/utils';
     import {useSocialMedia, useTitle} from '$lib/utils';
-    import {isBlank} from '@riadh-adrani/utility-js';
+    import _ from 'lodash';
 
     const title = '';
 
+    function isBlank(value) {
+        return _.isEmpty(value) && !_.isNumber(value) || _.isNaN(value);
+    }
 
 
     const _links = {
