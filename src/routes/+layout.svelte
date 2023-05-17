@@ -51,7 +51,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 40px 0px;
+    padding: 50px 0px;
   }
 
   .container {

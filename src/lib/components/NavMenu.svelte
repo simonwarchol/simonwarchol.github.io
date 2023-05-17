@@ -23,8 +23,8 @@
 
     const items: Array<NavMenuItem> = [
         {title: NavBar.home, to: '/', icon: Icons.Home},
-        {title: NavBar.publications, to: '/publications', icon: Icons.Academic},
-        {title: NavBar.awards, to: '/awards', icon: Icons.Skills},
+        {title: NavBar.publications, to: '/#publications-anchor', icon: Icons.Academic},
+        {title: NavBar.awards, to: '/#awards-anchor', icon: Icons.Skills},
         {title: NavBar.resume, to: '/resume', icon: Icons.Resume}
     ];
 </script>
@@ -45,6 +45,10 @@
 </div>
 
 <style lang="scss">
+  html {
+    scroll-behavior: smooth;
+  }
+
   .container {
     justify-content: center;
     display: flex;

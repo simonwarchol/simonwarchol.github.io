@@ -5,7 +5,7 @@
 
     export let experience: Experience;
 
-    const splitAuthors = experience?.authors.split(',').map(author => author.trim());
+    const splitAuthors = experience?.authors?.split(',').map(author => author.trim()) || []
 
 
 </script>

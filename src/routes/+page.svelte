@@ -4,6 +4,8 @@
     import type {SocialLink, SocialMedia} from '$lib/utils';
     import {useSocialMedia, useTitle} from '$lib/utils';
     import _ from 'lodash';
+    import ExperienceCard from '$lib/components/PublicationCard.svelte';
+    import MainTitle from "$lib/components/MainTitle/MainTitle.svelte";
 
     const title = '';
 
@@ -11,6 +13,69 @@
         return _.isEmpty(value) && !_.isNumber(value) || _.isNaN(value);
     }
 
+
+    const publicationsTitle = 'Publications';
+    const items = [
+        {
+            title: 'Lymphocyte networks are dynamic cellular communities in the immunoregulatory landscape of lung adenocarcinoma',
+            authors: 'Giorgio Gaglia, Megan L Burger, Cecily C Ritch, Danae Rammos, Yang Dai, Grace E Crossland, Sara Z Tavana, Simon Warchol, Alex M Jaeger, Santiago Naranjo, Shannon Coy, Ajit J Nirmal, Robert Krueger, Jia-Ren Lin, Hanspeter Pfister, Peter K Sorger, Tyler Jacks, Sandro Santagata',
+            journal: 'Cancer Cell 2023 May 8;41(5):871-886.e10',
+            link: "https://www.cell.com/cancer-cell/fulltext/S1535-6108(23)00088-0",
+            vcg_link: "https://vcg.seas.harvard.edu/publications/lymphocyte-networks",
+            teaser: '/fx1_lrg.jpg',
+        }, {
+            title: 'Vimo: Visual Analysis of Neuronal Connectivity Motifs',
+            authors: 'Jakob Troidl, Simon Warchol, Jinhan Choi, Jordan Matelsky, Nagaraju Dhanysai, Xueying Wang, Brock Wester, Donglai Wei, Jeff W Lichtman, Hanspeter Pfister, Johanna Beyer',
+            journal: 'Pre-Print',
+            link: "https://doi.org/10.1101/2022.12.09.519772",
+            vcg_link: "https://vcg.seas.harvard.edu/publications/vimo",
+            teaser: '/vimo-teaser-02.png',
+        },
+        {
+            title: 'Visinity: Visual Spatial Neighborhood Analysis for Multiplexed Tissue Imaging Data',
+            authors: 'Simon Warchol, Robert Krueger, Ajit Johnson Nirmal, Giorgio Gaglia, Jared Jessup, Cecily C Ritch, John Hoffer, Jeremy Muhlich, Megan L Burger, Tyler Jacks, Sandro Santagata, Peter K Sorger, Hanspeter Pfister',
+            journal: 'IEEE Transactions on Visualization and Computer Graphics. 2023 Jan; 29(1): 106–116.',
+            link: "https://ieeexplore.ieee.org/document/9904770",
+            vcg_link: "https://vcg.seas.harvard.edu/publications/visinity",
+            teaser: '/interfaceteaserfinalthumbnail.jpg',
+        },
+        {
+
+            authors: 'Jared Jessup, Robert Krueger, Simon Warchol, John Hoffer, Jeremy Muhlich, Cecily C Ritch, Giorgio Gaglia, Shannon Coy, Yu-An Chen, Jia-Ren Lin, Sandro Santagata, Peter K Sorger, Hanspeter Pfister',
+            title: 'Scope2Screen: focus+ context techniques for pathology tumor assessment in multivariate image data',
+            journal: 'IEEE Transactions on Visualization and Computer Graphics. 2022 Jan; 28(1): 259–269.',
+            link: "https://ieeexplore.ieee.org/document/9557792",
+            vcg_link: "https://vcg.seas.harvard.edu/publications/scope2screen",
+            teaser: '/scope2screen_high_res.png',
+        }
+    ]
+
+    const awardsTitle = 'Awards';
+
+    const awards = [
+        {
+            title: 'Harvard University Certificate of Distinction in Teaching',
+            journal: 'Fall 2021',
+            authors: 'CS171: Visualization',
+            link: 'https://www.cs171.org/2021/',
+            teaser: '/bok.jpg',
+            vcg_link: 'https://bokcenter.harvard.edu/files/shadowbok/files/fall_2021_distinction_by_course.pdf'
+        }, {
+            title: 'Harvard University Certificate of Distinction in Teaching',
+            journal: 'Spring 2021',
+            authors: 'CS205: Computing Foundations for Computational Science',
+            link: 'https://harvard-iacs.github.io/2021-CS205/',
+            teaser: '/bok.jpg',
+            vcg_link: 'https://bokcenter.harvard.edu/files/shadowbok/files/spring_2021_distinction_by_name.pdf'
+        }, {
+            title: 'Harvard University Certificate of Distinction in Teaching',
+            journal: 'Fall 2020',
+            authors: 'CS107: Systems Development for Computational Science',
+            link: 'https://harvard-iacs.github.io/2020-CS107',
+            teaser: '/bok.jpg',
+            vcg_link: 'https://bokcenter.harvard.edu/files/shadowbok/files/fall_2020_distinction_by_course.pdf'
+        }
+    ]
 
     const _links = {
         twitter: 'https://twitter.com/simonwarchol',
@@ -88,17 +153,61 @@
         </div>
 
     </div>
-
+</div>
+<div class="experience" id="publications-anchor">
+    <MainTitle>{publicationsTitle}</MainTitle>
+    <div class="experience-experiences">
+        {#each items as job}
+            <ExperienceCard experience={job}/>
+        {/each}
+    </div>
+</div>
+<div class="awards-wrapper" id="awards-anchor">
+    <MainTitle>{awardsTitle}</MainTitle>
+    <div class="award-awards">
+        {#each awards as award}
+            <ExperienceCard experience={award}/>
+            <!--            <Card margin="0px 0px 20px 0px" tiltDegree={2}>-->
+            <!--                <div class="award">-->
+            <!--                    <div class="award-teaser">-->
+            <!--                        <a href={award?.award_link} target="_blank">-->
+            <!--                            <img class="teaser" src={award.teaser}/>-->
+            <!--                        </a>-->
+            <!--                    </div>-->
+            <!--                    <div class="award-data">-->
+            <!--                        <a href={award.award_link} target="_blank">-->
+            <!--                            <h3 class="award-title">-->
+            <!--                                <CardTitle title={award.title}/>-->
+            <!--                                <div class="award-title-divider"/>-->
+            <!--                            </h3>-->
+            <!--                        </a>-->
+            <!--                        <div>{award.course}</div>-->
+            <!--                        <div class="award-date">{award.date}</div>-->
+            <!--                        <div class="award-link">-->
+            <!--                            <a href="{award.link}" target="_blank" rel="noopener noreferrer"-->
+            <!--                               class="award-link">-->
+            <!--                                {award.link}-->
+            <!--                            </a>-->
+            <!--                        </div>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </Card>-->
+        {/each}
+    </div>
 </div>
 
 <!--https://coolors.co/76b1e2-962b34-59cd90-fac05e-f79d84   -->
 <style lang="scss">
 
+  #publications-anchor, #awards-anchor {
+    padding-top: 50px;
+  }
+
   #profile-image {
     background-image: url("/profile.png");
     width: 600px;
     height: 600px;
-    max-width: 40vw;
+    max-width: 35vw;
     background-size: contain;
     //background-size: auto 100%;
     background-position: center;
@@ -140,6 +249,13 @@
   a.groups {
     color: #76b1e2;
     //color: #FAC05E;
+  }
+
+  .teaser {
+    height: auto;
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
   }
 
 
@@ -184,18 +300,134 @@
         text-decoration: none;
       }
     }
-
-    //@media (max-width: 875px) {
-    //  & {
-    //    flex-direction: column;
-    //    justify-content: center;
-    //  }
-    //
-    //  &-section {
-    //    flex: 0;
-    //    align-items: center;
-    //    text-align: center;
-    //  }
-    //}
   }
+
+  .experience {
+    //border-top: gray dashed;
+    //margin-top:25px;
+    display: flex;
+    flex-direction: column;
+
+    &-experiences {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .awards-wrapper {
+    //border-top: gray dashed;
+    //margin-top:25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .award {
+    display: flex;
+    align-items: center;
+
+
+    &-awards {
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    &-data {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    }
+
+
+    @media (max-width: 800px) {
+      flex-direction: column;
+
+      &-data {
+        margin-left: 0px;
+      }
+    }
+
+    &-title {
+      margin: 0;
+      display: flex;
+      align-items: center;
+
+      &-divider {
+        width: 10px;
+      }
+
+      @media (max-width: 800px) {
+        & {
+          align-items: center;
+          margin: 5px 0px;
+        }
+      }
+    }
+
+
+    &-period,
+    &-date {
+      color: var(--accent-text-c);
+      margin-bottom: 0px;
+    }
+
+    &-link {
+      margin-bottom: 0;
+    }
+
+
+    &-authors {
+      margin-bottom: 5px;
+    }
+
+    &-date {
+      margin-bottom: 5px;
+    }
+
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+
+    &-search,
+    &-filters,
+    &-list {
+      margin-top: 40px;
+    }
+
+    &-search {
+      display: flex;
+      justify-content: stretch;
+      padding: 0px 10px;
+    }
+
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 0px 10px;
+
+      @media (max-width: 1350px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 850px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+
+  //@media (max-width: 875px) {
+  //  & {
+  //    flex-direction: column;
+  //    justify-content: center;
+  //  }
+  //
+  //  &-section {
+  //    flex: 0;
+  //    align-items: center;
+  //    text-align: center;
+  //  }
+  //}
+
 </style>
