@@ -25,7 +25,7 @@
         {title: NavBar.home, to: '/', icon: Icons.Home},
         {title: NavBar.publications, to: '/#publications-anchor', icon: Icons.Academic},
         {title: NavBar.awards, to: '/#awards-anchor', icon: Icons.Skills},
-        {title: NavBar.resume, to: '/resume', icon: Icons.Resume}
+        {title: NavBar.resume, to: '/warchol_cv.pdf', icon: Icons.Resume}
     ];
 </script>
 
