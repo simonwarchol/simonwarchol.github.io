@@ -1,5 +1,4 @@
 <script lang="ts">
-    import Portrait from '$lib/components/Portrait.svelte';
     import Icon from '$lib/components/Icon/Icon.svelte';
     import {PortfolioTitle} from '$lib/params';
     import type {SocialLink, SocialMedia} from '$lib/utils';
@@ -44,7 +43,9 @@
     <title>{useTitle(title, PortfolioTitle)}</title>
 </svelte:head>
 <div class="home">
-    <Portrait/>
+    <div class="home-section">
+        <div id="profile-image" class="profile-image"></div>
+    </div>
     <div class="home-section">
         <h1 class="home-title">Simon Warchol</h1>
         <div class="home-subtitle">
@@ -92,6 +93,23 @@
 
 <!--https://coolors.co/76b1e2-962b34-59cd90-fac05e-f79d84   -->
 <style lang="scss">
+
+  #profile-image {
+    background-image: url("/profile.png");
+    width: 600px;
+    height: 600px;
+    max-width: 40vw;
+    background-size: contain;
+    //background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .home-section {
+    width: 50%;
+    height: 100%;
+  }
+
   .home-detail {
     display: block;
     margin-bottom: 0.5em;
@@ -131,23 +149,23 @@
   }
 
   .home {
-    align-self: center;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     flex: 1;
     align-self: stretch;
-    align-items: center;
+    align-items: start;
     padding: 0px 10px;
 
     &-title {
       font-family: var(--title-f);
-      font-size: 4em;
+      font-size: 3em;
       font-weight: 900;
       letter-spacing: 2px;
     }
 
     &-subtitle {
-      font-size: 1.2em;
+      font-size: 1.1em;
       font-weight: 200;
     }
 
@@ -155,6 +173,7 @@
       display: flex;
       flex-direction: column;
       flex: 1;
+      overflow: hidden;
     }
 
     &-social {
@@ -166,17 +185,17 @@
       }
     }
 
-    @media (max-width: 875px) {
-      & {
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      &-section {
-        flex: 0;
-        align-items: center;
-        text-align: center;
-      }
-    }
+    //@media (max-width: 875px) {
+    //  & {
+    //    flex-direction: column;
+    //    justify-content: center;
+    //  }
+    //
+    //  &-section {
+    //    flex: 0;
+    //    align-items: center;
+    //    text-align: center;
+    //  }
+    //}
   }
 </style>
