@@ -94,7 +94,7 @@
 <style lang="scss">
   .home-detail {
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 
   a.advisors {
@@ -102,8 +102,7 @@
   }
 
   .interests-list {
-    list-style: square;
-    margin-left: 30px;
+    list-style: none;
 
     a {
       color: #76b1e2;
