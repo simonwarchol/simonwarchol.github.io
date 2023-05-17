@@ -10,10 +10,11 @@
     background-image: url("/profile.png");
     width: 600px;
     height: 600px;
+    max-width: 40vw;
     background-size: contain;
     //background-size: auto 100%;
     background-position: center;
-    background-repeat:  no-repeat;
+    background-repeat: no-repeat;
   }
 
   .profile-wrapper {
