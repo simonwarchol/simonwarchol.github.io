@@ -24,7 +24,7 @@
     const items: Array<NavMenuItem> = [
         {title: NavBar.home, to: '/', icon: Icons.Home},
         {title: NavBar.publications, to: '/publications', icon: Icons.Academic},
-        {title: NavBar.awards, to: '/awards', icon: Icons.Job},
+        {title: NavBar.awards, to: '/awards', icon: Icons.Skills},
         {title: NavBar.resume, to: '/resume', icon: Icons.Resume}
     ];
 </script>

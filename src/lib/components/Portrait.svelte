@@ -7,9 +7,9 @@
 
 <style lang="scss">
   #profile-image {
-    background-image: url("/profile.svg");
-    width: 400px;
-    height: 400px;
+    background-image: url("/profile.png");
+    width: 600px;
+    height: 600px;
     background-size: contain;
     //background-size: auto 100%;
     background-position: center;

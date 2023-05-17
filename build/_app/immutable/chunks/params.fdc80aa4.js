@@ -1,1 +1,0 @@
-import{I as t}from"./index.53754f3f.js";const r=(o,e)=>`${o&&o+" | "}${e}`,a=o=>{switch(o){case"github":return{title:"GitHub",icon:t.GitHub};case"googlescholar":return{title:"Google Scholar",icon:t.GoogleScholar};case"twitter":return{title:"Twitter",icon:t.Twitter};case"email":return{title:"Email",icon:t.Email}}},c="Simon Warchol | Person";export{c as P,a,r as u};
