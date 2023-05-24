@@ -107,7 +107,7 @@
 <svelte:head>
     <title>{useTitle(title, PortfolioTitle)}</title>
 </svelte:head>
-<div class="home">
+<div class="home" id="home-container">
     <div class="home-section">
         <div id="profile-image" class="profile-image"></div>
     </div>
@@ -203,20 +203,33 @@
     padding-top: 50px;
   }
 
+  #home-container {
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+
+  }
+
   #profile-image {
     background-image: url("/profile.png");
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
+    //width: 600px;
+    //height: 600px;
     max-width: 35vw;
     background-size: contain;
     //background-size: auto 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: space;
   }
 
   .home-section {
-    width: 50%;
-    height: 100%;
+    flex-grow: 1;
+    width: 100%;
+
   }
 
   .home-detail {
@@ -265,19 +278,13 @@
   }
 
   .home {
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    align-self: stretch;
-    align-items: start;
-    padding: 0px 10px;
+
 
     &-title {
       font-family: var(--title-f);
-      font-size: 3em;
+      font-size: 2.7em;
       font-weight: 900;
-      letter-spacing: 2px;
+      //letter-spacing: 2px;
     }
 
     &-subtitle {
@@ -286,10 +293,10 @@
     }
 
     &-section {
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      overflow: hidden;
+      //display: flex;
+      //flex-direction: column;
+      //flex: 1;
+      //overflow: hidden;
     }
 
     &-social {
