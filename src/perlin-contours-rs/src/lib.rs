@@ -173,7 +173,7 @@ async fn run(event_loop: EventLoop<()>, window: Window) {
                 window.request_redraw();
             }
             Event::RedrawRequested(_) => {
-                uniforms.time_since_start += 0.01;
+                uniforms.time_since_start += 0.001;
                 // uniforms.time_since_start = uniforms.time_since_start % 1.0;
                 // console::log_1(&uniforms.time_since_start.into());
                 queue.write_buffer(&uniform_buffer, 0, bytemuck::cast_slice(&[uniforms]));

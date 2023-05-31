@@ -13,6 +13,8 @@ float u2f(uint x) {
     return uintBitsToFloat(0x40000000u | (x & 0x007FFFFFu)) - 3.;
 }
 
+
+
 vec3 rand_grad(uvec3 p) {
     uint tmp = hash(hash(hash(hash(p.x)) ^ hash(p.y)) ^ hash(p.z));
     return vec3(u2f(hash(tmp ^ 0u)), u2f(hash(tmp ^ 1u)), u2f(hash(tmp ^ 2u)));
@@ -47,11 +49,6 @@ float perlin(vec3 p) {
     return res;
 }
 
-int fn(ivec2 coord) {
-    //vec2 pos = (vec2(coord * 2) - reso.xy) / reso.y;
-    //return int(floor(sin(dot(pos,pos)*16.)*8.5));
-    return (int(floor(perlin(vec3(vec2(coord) * .02, iTime*.1)) * 10.)));
-}
 
 void mainImage(out vec4 col, in vec2 coord) {
     float v = perlin(vec3(vec2(coord) * .02, iTime*.1));
