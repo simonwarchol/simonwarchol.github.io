@@ -9,7 +9,10 @@ const config = {
     preprocess: vitePreprocess(),
 
     kit: {
-        adapter: adapter()
+        adapter: adapter(),
+        prerender:{
+            handleMissingId: 'warn',
+        }
     },
     paths: {
         base: dev ? '' : process.env.BASE_PATH,
