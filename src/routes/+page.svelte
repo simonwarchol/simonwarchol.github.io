@@ -6,6 +6,9 @@
     import _ from 'lodash';
     import ExperienceCard from '$lib/components/PublicationCard.svelte';
     import MainTitle from "$lib/components/MainTitle/MainTitle.svelte";
+    import 'perlin-contours-rs';
+    import {onMount} from 'svelte';
+    import * as perlin from 'perlin-contours-rs';
 
     const title = '';
 
@@ -102,7 +105,21 @@
 
         return !isBlank(email) && reg.test(email);
     };
+    let canvas;
+
+    onMount(async () => {
+        console.log('on mount');
+        await perlin.init(canvas).catch((error) => {
+            if (!error.message.startsWith("Using exceptions for control flow,")) {
+                throw error;
+            }
+        });
+    });
+
 </script>
+<canvas
+        bind:this={canvas}
+></canvas>
 
 <svelte:head>
     <title>{useTitle(title, PortfolioTitle)}</title>
@@ -198,13 +215,22 @@
 
 <!--https://coolors.co/76b1e2-962b34-59cd90-fac05e-f79d84   -->
 <style lang="scss">
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: -1;
+  }
+
 
   #publications-anchor, #awards-anchor {
     padding-top: 50px;
   }
 
   #home-container {
-    padding:0;
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
