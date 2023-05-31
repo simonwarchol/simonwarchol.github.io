@@ -23,6 +23,7 @@
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
+    "perlin-contours-rs": "file:./src/perlin-contours-rs/pkg",
     "postcss": "^8.4.21",
     "prettier": "^2.8.0",
     "prettier-plugin-svelte": "^2.8.1",
@@ -38,6 +39,7 @@
   "type": "module",
   "dependencies": {
     "gh-pages": "^5.0.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "vite-plugin-wasm": "^3.2.2"
   }
 }

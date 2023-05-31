@@ -913,6 +913,7 @@ checksum = "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e"
 name = "perlin-contour-rs"
 version = "0.2.0"
 dependencies = [
+ "bytemuck",
  "console_error_panic_hook",
  "futures-intrusive",
  "js-sys",

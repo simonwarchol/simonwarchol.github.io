@@ -7,6 +7,7 @@ use winit::{
     event_loop::{ControlFlow, EventLoop},
     window::{Window, WindowBuilder},
 };
+use wgpu::util::DeviceExt;
 use winit::platform::web::WindowBuilderExtWebSys;
 
 // When the `wee_alloc` feature is enabled, use `wee_alloc` as the global
@@ -20,6 +21,12 @@ extern {
     fn alert(s: &str);
 }
 
+
+#[repr(C)]
+#[derive(Copy, Clone)]
+struct Uniforms {
+    time_since_start: f32,
+}
 
 async fn run(event_loop: EventLoop<()>, window: Window) {
     let size = window.inner_size();
@@ -53,6 +60,20 @@ async fn run(event_loop: EventLoop<()>, window: Window) {
         )
         .await
         .expect("Failed to create device");
+
+
+    unsafe impl bytemuck::Pod for Uniforms {}
+    unsafe impl bytemuck::Zeroable for Uniforms {}
+
+    let mut uniforms = Uniforms {
+        time_since_start: 0.0, // Initialize to 0.0, will be updated each frame
+    };
+
+    let uniform_buffer = device.create_buffer_init(&wgpu::util::BufferInitDescriptor {
+        label: Some("Uniform Buffer"),
+        contents: bytemuck::cast_slice(&[uniforms]),
+        usage: wgpu::BufferUsages::UNIFORM | wgpu::BufferUsages::COPY_DST,
+    });
 
     // Load the shaders from disk
     let shader = device.create_shader_module(wgpu::ShaderModuleDescriptor {
@@ -135,7 +156,7 @@ async fn run(event_loop: EventLoop<()>, window: Window) {
                             view: &view,
                             resolve_target: None,
                             ops: wgpu::Operations {
-                                load: wgpu::LoadOp::Clear(wgpu::Color::GREEN),
+                                load: wgpu::LoadOp::Clear(wgpu::Color::BLACK),
                                 store: true,
                             },
                         })],
