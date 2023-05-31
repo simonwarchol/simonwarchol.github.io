@@ -108,12 +108,16 @@
     let canvas;
 
     onMount(async () => {
-        console.log('on mount');
-        await init(canvas).catch((error) => {
-            if (!error.message.startsWith("Using exceptions for control flow,")) {
-                throw error;
-            }
-        });
+        try {
+            console.log('on mount');
+            await init(canvas).catch((error) => {
+                if (!error.message.startsWith("Using exceptions for control flow,")) {
+                    throw error;
+                }
+            });
+        } catch (error) {
+            console.error(error);
+        }
     });
 
 </script>
