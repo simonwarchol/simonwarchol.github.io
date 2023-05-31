@@ -26,6 +26,8 @@ extern {
 #[derive(Debug, Copy, Clone)]
 struct Uniforms {
     time_since_start: f32,
+    window_width: f32,
+    window_height: f32
 }
 
 unsafe impl bytemuck::Pod for Uniforms {}
@@ -67,6 +69,8 @@ async fn run(event_loop: EventLoop<()>, window: Window) {
 
     let mut uniforms = Uniforms {
         time_since_start: 0.0, // Initialize to 0.0, will be updated each frame
+        window_width: size.width as f32,
+        window_height: size.height as f32,
     };
 
     let uniform_buffer = device.create_buffer_init(&wgpu::util::BufferInitDescriptor {
@@ -170,7 +174,8 @@ async fn run(event_loop: EventLoop<()>, window: Window) {
             }
             Event::RedrawRequested(_) => {
                 uniforms.time_since_start += 0.01;
-                console::log_1(&uniforms.time_since_start.into());
+                // uniforms.time_since_start = uniforms.time_since_start % 1.0;
+                // console::log_1(&uniforms.time_since_start.into());
                 queue.write_buffer(&uniform_buffer, 0, bytemuck::cast_slice(&[uniforms]));
 
                 let frame = surface
@@ -224,17 +229,5 @@ pub async fn init(canvas: HtmlCanvasElement) {
         .with_canvas(Some(canvas))
         .build(&event_loop)
         .unwrap();
-
-
-    // use winit::platform::web::WindowExtWebSys;
-    // // On wasm, append the canvas to the document body
-    // web_sys::window()
-    //     .and_then(|win| win.document())
-    //     .and_then(|doc| doc.body())
-    //     .and_then(|body| {
-    //         body.append_child(&web_sys::Element::from(window.canvas()))
-    //             .ok()
-    //     })
-    //     .expect("couldn't append canvas to document body");
     wasm_bindgen_futures::spawn_local(run(event_loop, window));
 }
