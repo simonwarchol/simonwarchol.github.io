@@ -8,7 +8,7 @@
     import MainTitle from "$lib/components/MainTitle/MainTitle.svelte";
     import 'perlin-contours-rs';
     import {onMount} from 'svelte';
-    import {    init    } from 'perlin-contours-rs';
+    import {init} from 'perlin-contours-rs';
 
     const title = '';
 
@@ -108,15 +108,17 @@
     let canvas;
 
     onMount(async () => {
-        try {
-            console.log('on mount');
-            await init(canvas).catch((error) => {
-                if (!error.message.startsWith("Using exceptions for control flow,")) {
-                    throw error;
-                }
-            });
-        } catch (error) {
-            console.error(error);
+        if (navigator.gpu) {
+            try {
+                console.log('on mount');
+                await init(canvas).catch((error) => {
+                    if (!error.message.startsWith("Using exceptions for control flow,")) {
+                        throw error;
+                    }
+                });
+            } catch (error) {
+                console.error(error);
+            }
         }
     });
 
