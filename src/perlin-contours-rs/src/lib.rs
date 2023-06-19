@@ -9,6 +9,7 @@ use winit::{
     window::{Window, WindowBuilder},
 };
 use winit::platform::web::WindowBuilderExtWebSys;
+use wgpu::Features;
 
 // When the `wee_alloc` feature is enabled, use `wee_alloc` as the global
 // allocator.
