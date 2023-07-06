@@ -1,1 +1,29 @@
-{"rustc":5075174800980901198,"features":"[\"console_error_panic_hook\", \"default\"]","target":11836626958967209672,"profile":12164079446139359250,"path":17523903030608720598,"deps":[[1789371571080066402,"futures_intrusive",false,9703424573818394710],[2723618179121869010,"js_sys",false,9635373503683646535],[3830887545042488744,"web_sys",false,11395261233197813401],[3970270037858789294,"winit",false,1228192972128042478],[4256034858023273196,"wgpu",false,13643323291966576418],[5777885894887263123,"bytemuck",false,1223360402017032513],[14414803454294544612,"console_error_panic_hook",false,1683072074665779836],[15079505104027319283,"wasm_bindgen_futures",false,14088305175091978628],[16758558791006278548,"wasm_bindgen",false,9281515185228538871]],"local":[{"CheckDepInfo":{"dep_info":"wasm32-unknown-unknown/release/.fingerprint/perlin-contour-rs-9c92cf71a3c91132/dep-lib-perlin-contour-rs"}}],"rustflags":["--cfg=web_sys_unstable_apis"],"metadata":9604962895771895482,"config":2202906307356721367,"compile_kind":8104632896995515128}
+{
+	"rustc": 5075174800980901198,
+	"features": "[\"console_error_panic_hook\", \"default\"]",
+	"target": 11836626958967209672,
+	"profile": 12164079446139359250,
+	"path": 17523903030608720598,
+	"deps": [
+		[1789371571080066402, "futures_intrusive", false, 9703424573818394710],
+		[2723618179121869010, "js_sys", false, 9635373503683646535],
+		[3830887545042488744, "web_sys", false, 11395261233197813401],
+		[3970270037858789294, "winit", false, 1228192972128042478],
+		[4256034858023273196, "wgpu", false, 13643323291966576418],
+		[5777885894887263123, "bytemuck", false, 1223360402017032513],
+		[14414803454294544612, "console_error_panic_hook", false, 1683072074665779836],
+		[15079505104027319283, "wasm_bindgen_futures", false, 14088305175091978628],
+		[16758558791006278548, "wasm_bindgen", false, 9281515185228538871]
+	],
+	"local": [
+		{
+			"CheckDepInfo": {
+				"dep_info": "wasm32-unknown-unknown/release/.fingerprint/perlin-contour-rs-9c92cf71a3c91132/dep-lib-perlin-contour-rs"
+			}
+		}
+	],
+	"rustflags": ["--cfg=web_sys_unstable_apis"],
+	"metadata": 9604962895771895482,
+	"config": 2202906307356721367,
+	"compile_kind": 8104632896995515128
+}

@@ -1,1 +1,19 @@
-{"rustc":5075174800980901198,"features":"[\"default\", \"std\"]","target":13655660579347676445,"profile":12164079446139359250,"path":4200803384903283520,"deps":[[13028542989389326008,"bit_vec",false,17945374137968135356]],"local":[{"CheckDepInfo":{"dep_info":"wasm32-unknown-unknown/release/.fingerprint/bit-set-8638fa16865fa8c8/dep-lib-bit-set"}}],"rustflags":["--cfg=web_sys_unstable_apis"],"metadata":14770418712097503336,"config":2202906307356721367,"compile_kind":8104632896995515128}
+{
+	"rustc": 5075174800980901198,
+	"features": "[\"default\", \"std\"]",
+	"target": 13655660579347676445,
+	"profile": 12164079446139359250,
+	"path": 4200803384903283520,
+	"deps": [[13028542989389326008, "bit_vec", false, 17945374137968135356]],
+	"local": [
+		{
+			"CheckDepInfo": {
+				"dep_info": "wasm32-unknown-unknown/release/.fingerprint/bit-set-8638fa16865fa8c8/dep-lib-bit-set"
+			}
+		}
+	],
+	"rustflags": ["--cfg=web_sys_unstable_apis"],
+	"metadata": 14770418712097503336,
+	"config": 2202906307356721367,
+	"compile_kind": 8104632896995515128
+}

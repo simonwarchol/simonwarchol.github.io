@@ -1,1 +1,21 @@
-{"rustc":5075174800980901198,"features":"","target":0,"profile":0,"path":0,"deps":[[14353505568435590440,"build_script_build",false,1687738926955755691]],"local":[{"RerunIfChanged":{"output":"debug/build/objc-sys-9a04d436c52f0e91/output","paths":["build.rs"]}},{"RerunIfEnvChanged":{"var":"MACOSX_DEPLOYMENT_TARGET","val":null}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
+{
+	"rustc": 5075174800980901198,
+	"features": "",
+	"target": 0,
+	"profile": 0,
+	"path": 0,
+	"deps": [[14353505568435590440, "build_script_build", false, 1687738926955755691]],
+	"local": [
+		{
+			"RerunIfChanged": {
+				"output": "debug/build/objc-sys-9a04d436c52f0e91/output",
+				"paths": ["build.rs"]
+			}
+		},
+		{ "RerunIfEnvChanged": { "var": "MACOSX_DEPLOYMENT_TARGET", "val": null } }
+	],
+	"rustflags": [],
+	"metadata": 0,
+	"config": 0,
+	"compile_kind": 0
+}

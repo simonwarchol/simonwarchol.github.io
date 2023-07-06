@@ -9,10 +9,6 @@ import type {
 
 export const PortfolioTitle = 'Simon Warchol | Person';
 
-
-
-
-
 export const MySkillsParams: SkillsParams = {
 	skills: [
 		{

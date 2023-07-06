@@ -1,1 +1,23 @@
-{"rustc":5075174800980901198,"features":"[\"alloc\", \"default\", \"parking_lot\", \"std\"]","target":3432297697107735543,"profile":12164079446139359250,"path":5097530089512083927,"deps":[[7131157336065139194,"parking_lot",false,12795918216378150103],[8042826022143543212,"futures_core",false,16203392702715205658],[13299708346218956520,"lock_api",false,1962169939437402922]],"local":[{"CheckDepInfo":{"dep_info":"wasm32-unknown-unknown/release/.fingerprint/futures-intrusive-d00b47cc1f8bdfd6/dep-lib-futures_intrusive"}}],"rustflags":["--cfg=web_sys_unstable_apis"],"metadata":4686916949255069075,"config":2202906307356721367,"compile_kind":8104632896995515128}
+{
+	"rustc": 5075174800980901198,
+	"features": "[\"alloc\", \"default\", \"parking_lot\", \"std\"]",
+	"target": 3432297697107735543,
+	"profile": 12164079446139359250,
+	"path": 5097530089512083927,
+	"deps": [
+		[7131157336065139194, "parking_lot", false, 12795918216378150103],
+		[8042826022143543212, "futures_core", false, 16203392702715205658],
+		[13299708346218956520, "lock_api", false, 1962169939437402922]
+	],
+	"local": [
+		{
+			"CheckDepInfo": {
+				"dep_info": "wasm32-unknown-unknown/release/.fingerprint/futures-intrusive-d00b47cc1f8bdfd6/dep-lib-futures_intrusive"
+			}
+		}
+	],
+	"rustflags": ["--cfg=web_sys_unstable_apis"],
+	"metadata": 4686916949255069075,
+	"config": 2202906307356721367,
+	"compile_kind": 8104632896995515128
+}
