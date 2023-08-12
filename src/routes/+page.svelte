@@ -161,10 +161,14 @@
 				for <span class="emphasis">cancer biology</span>.</span
 			>
 			<span class="home-detail"
-				>Member of <a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a>,
-				<a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>, and the
+				>Member of
+				<a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> and the
 				<a class="groups" href="https://labsyspharm.org/">Laboratory of Systems Pharmacology</a
 				>.</span
+			>
+
+			<span class="home-detail">
+				<a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a> Steward.</span
 			>
 			<span class="home-detail"
 				>I was raised in <span class="cities">St. Louis, MO</span> and now live in
