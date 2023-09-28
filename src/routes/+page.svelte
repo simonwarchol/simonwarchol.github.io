@@ -146,7 +146,7 @@
 	<div class="home-section">
 		<h1 class="home-title">Simon Warchol</h1>
 		<div class="home-subtitle">
-			<span class="home-detail">PhD Student in Computer Science at Harvard University</span>
+			<span class="home-detail">PhD Candiate in Computer Science at Harvard University</span>
 			<span class="home-detail"
 				>Advised by <a class="advisors" href="https://vcg.seas.harvard.edu/people/hanspeter-pfister"
 					>Hanspeter Pfister</a
