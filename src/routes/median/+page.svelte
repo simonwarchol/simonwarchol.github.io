@@ -34,12 +34,12 @@
 <div>
     {#each data.scores as score, i}
         <div style="display: flex; justify-content: space-between;">
-            <p>{score.team}</p>
-            <p>{_.round(score.proj,2)}</p>
+            <p style="color: hsl({score.matchup * 60}, 100%, 50%)">{score.team}</p>
+            <p style="color: hsl({score.matchup * 60}, 100%, 50%)">{_.round(score.proj,2)}</p>
         </div>
         <!-- Check this is the median score -->
         {#if i === data.scores.length / 2 - 1}
-            <div style="display: flex; justify-content: space-between; background-color: white; color: red; padding: 2px;">
+            <div style="display: flex; justify-content: space-between; background-color: white; color: black; padding: 2px;">
                 <p>Median</p>
                 <p>{_.round(data.median,2)}</p>
             </div>
