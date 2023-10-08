@@ -26,6 +26,9 @@
         }
     });
 </script>
+<svelte:head>
+    <title>Median</title> 
+</svelte:head>
 
 <canvas bind:this={canvas} />
 
