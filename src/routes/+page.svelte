@@ -19,6 +19,15 @@
 	const publicationsTitle = 'Publications';
 	const items = [
 		{
+			title: 'Vimo: Visual Analysis of Neuronal Connectivity Motifs',
+			authors:
+				'Jakob Troidl, Simon Warchol, Jinhan Choi, Jordan Matelsky, Nagaraju Dhanysai, Xueying Wang, Brock Wester, Donglai Wei, Jeff W Lichtman, Hanspeter Pfister, Johanna Beyer',
+			journal: 'IEEE Transactions on Visualization and Computer Graphics',
+			link: 'https://doi.org/10.1109/TVCG.2023.3327388',
+			vcg_link: 'https://vcg.seas.harvard.edu/publications/vimo',
+			teaser: '/vimo-teaser-02.png'
+		},
+		{
 			title:
 				'Lymphocyte networks are dynamic cellular communities in the immunoregulatory landscape of lung adenocarcinoma',
 			authors:
@@ -28,15 +37,7 @@
 			vcg_link: 'https://vcg.seas.harvard.edu/publications/lymphocyte-networks',
 			teaser: '/fx1_lrg.jpg'
 		},
-		{
-			title: 'Vimo: Visual Analysis of Neuronal Connectivity Motifs',
-			authors:
-				'Jakob Troidl, Simon Warchol, Jinhan Choi, Jordan Matelsky, Nagaraju Dhanysai, Xueying Wang, Brock Wester, Donglai Wei, Jeff W Lichtman, Hanspeter Pfister, Johanna Beyer',
-			journal: 'Pre-Print',
-			link: 'https://doi.org/10.1101/2022.12.09.519772',
-			vcg_link: 'https://vcg.seas.harvard.edu/publications/vimo',
-			teaser: '/vimo-teaser-02.png'
-		},
+
 		{
 			title: 'Visinity: Visual Spatial Neighborhood Analysis for Multiplexed Tissue Imaging Data',
 			authors:
@@ -178,16 +179,19 @@
 		</div>
 		<ul class="interests-list">
 			<li>
-				Sad Indie Music: <a href="https://www.youtube.com/watch?v=96wDhimQ6nw&amp;t=811s"
-					>boygenius</a
-				>
-				and its members(<a href="https://www.youtube.com/watch?v=3y00ftsaNiA&amp;t=178s">¹</a>
-				<a href="https://www.youtube.com/watch?v=WJ9-xN6dCW4">²</a>
-				<a href="https://www.youtube.com/watch?v=ZuGa4_4YB4o">³</a>),
-				<a href="https://www.youtube.com/watch?v=eEe_yCVLQSc">The National</a>,
-				<a href="https://www.youtube.com/watch?v=9FX34TjJe-c&amp;t=488s">Sufjan Stevens</a>,
-				<a href="https://www.youtube.com/watch?v=Su-N-iH8CgI">Destroyer</a>
+				Sad Indie Music: <a href="https://www.youtube.com/watch?v=UtQlRpZlN-w">Lucy Dacus</a>,
+				<a href="https://www.youtube.com/watch?v=uWd0EWKpH94&t=6942s">The National</a>,
+				<a href="https://www.youtube.com/watch?v=G7aK0kNhQ20">The Beths</a>,
+				<a href="https://www.youtube.com/watch?v=vTZhG9YSY_c">Slowdive</a>,
+				<a href="https://www.youtube.com/watch?v=Z_ypVHGa1vM">Destroyer</a>
 			</li>
+			<li>
+				Local Politics: I am a
+				<a href="https://gblc.us/">Greater Boston Labor Council</a> Delegate and a voting member of
+				the
+				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council
+			</li>
+
 			<li>
 				Beer: <a href="https://lamplighterbrewing.com/">Lamplighter</a>,
 				<a href="https://vitaminseabrewing.com/">Vitamin Sea</a>,
