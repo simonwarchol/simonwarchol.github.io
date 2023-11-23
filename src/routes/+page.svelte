@@ -183,23 +183,23 @@
 				<a href="https://www.youtube.com/watch?v=uWd0EWKpH94&t=6942s">The National</a>,
 				<a href="https://www.youtube.com/watch?v=G7aK0kNhQ20">The Beths</a>,
 				<a href="https://www.youtube.com/watch?v=vTZhG9YSY_c">Slowdive</a>,
-				<a href="https://www.youtube.com/watch?v=Z_ypVHGa1vM">Destroyer</a>
+				<a href="https://www.youtube.com/watch?v=Z_ypVHGa1vM">Destroyer</a>.
 			</li>
 			<li>
 				Local Politics: I am a
 				<a href="https://gblc.us/">Greater Boston Labor Council</a> delegate and a voting member of
 				the
-				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council
+				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council.
 			</li>
 
 			<li>
 				Beer: <a href="https://lamplighterbrewing.com/">Lamplighter</a>,
 				<a href="https://vitaminseabrewing.com/">Vitamin Sea</a>,
 				<a href="https://www.sideprojectbrewing.com/">Side Project</a>,
-				<a href="https://oxbowbeer.com/">Oxbow</a>
+				<a href="https://oxbowbeer.com/">Oxbow</a>.
 			</li>
-			<li><a href="https://www.megunticook.org/">Lake Megunticook</a></li>
-			<li>My 2009 Prius</li>
+			<li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
+			<li>My 2009 Prius.</li>
 		</ul>
 
 		<div class="home-social">
