@@ -187,7 +187,7 @@
 			</li>
 			<li>
 				Local Politics: I am a
-				<a href="https://gblc.us/">Greater Boston Labor Council</a> Delegate and a voting member of
+				<a href="https://gblc.us/">Greater Boston Labor Council</a> delegate and a voting member of
 				the
 				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council
 			</li>

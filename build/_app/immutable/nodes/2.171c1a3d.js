@@ -10,7 +10,7 @@ import{S as Et,i as Pt,s as ut,e as ca,b as Y,g as J,d as q,h as p,o as ua,G as 
 				`),Ie=b("a"),Or=_("The Beths"),Mr=_(`,
 				`),ke=b("a"),Ar=_("Slowdive"),xr=_(`,
 				`),He=b("a"),Dr=_("Destroyer"),Cr=x(),ye=b("li"),Ir=_(`Local Politics: I am a
-				`),Ne=b("a"),kr=_("Greater Boston Labor Council"),Hr=_(` Delegate and a voting member of
+				`),Ne=b("a"),kr=_("Greater Boston Labor Council"),Hr=_(` delegate and a voting member of
 				the
 				`),Re=b("a"),Nr=_("UAW Region 9A"),Rr=_(" Massachusetts CAP Council"),Gr=x(),ie=b("li"),Br=_("Beer: "),Ge=b("a"),Lr=_("Lamplighter"),Tr=_(`,
 				`),Be=b("a"),Fr=_("Vitamin Sea"),Ur=_(`,
@@ -27,7 +27,7 @@ import{S as Et,i as Pt,s as ut,e as ca,b as Y,g as J,d as q,h as p,o as ua,G as 
 				`),Ie=v(fe,"A",{href:!0,class:!0});var Yn=g(Ie);Or=w(Yn,"The Beths"),Yn.forEach(p),Mr=w(fe,`,
 				`),ke=v(fe,"A",{href:!0,class:!0});var Kn=g(ke);Ar=w(Kn,"Slowdive"),Kn.forEach(p),xr=w(fe,`,
 				`),He=v(fe,"A",{href:!0,class:!0});var zn=g(He);Dr=w(zn,"Destroyer"),zn.forEach(p),fe.forEach(p),Cr=D(ge),ye=v(ge,"LI",{});var ct=g(ye);Ir=w(ct,`Local Politics: I am a
-				`),Ne=v(ct,"A",{href:!0,class:!0});var Zn=g(Ne);kr=w(Zn,"Greater Boston Labor Council"),Zn.forEach(p),Hr=w(ct,` Delegate and a voting member of
+				`),Ne=v(ct,"A",{href:!0,class:!0});var Zn=g(Ne);kr=w(Zn,"Greater Boston Labor Council"),Zn.forEach(p),Hr=w(ct,` delegate and a voting member of
 				the
 				`),Re=v(ct,"A",{href:!0,class:!0});var qn=g(Re);Nr=w(qn,"UAW Region 9A"),qn.forEach(p),Rr=w(ct," Massachusetts CAP Council"),ct.forEach(p),Gr=D(ge),ie=v(ge,"LI",{});var _e=g(ie);Br=w(_e,"Beer: "),Ge=v(_e,"A",{href:!0,class:!0});var Qn=g(Ge);Lr=w(Qn,"Lamplighter"),Qn.forEach(p),Tr=w(_e,`,
 				`),Be=v(_e,"A",{href:!0,class:!0});var ea=g(Be);Fr=w(ea,"Vitamin Sea"),ea.forEach(p),Ur=w(_e,`,
