@@ -192,12 +192,12 @@
 				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council.
 			</li>
 
-			<li>
+			<!-- <li>
 				Beer: <a href="https://lamplighterbrewing.com/">Lamplighter</a>,
 				<a href="https://vitaminseabrewing.com/">Vitamin Sea</a>,
 				<a href="https://www.sideprojectbrewing.com/">Side Project</a>,
 				<a href="https://oxbowbeer.com/">Oxbow</a>.
-			</li>
+			</li> -->
 			<li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
 			<li>My 2009 Prius.</li>
 		</ul>
