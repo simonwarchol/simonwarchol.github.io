@@ -21,7 +21,8 @@
 		{
 			title: 'psudo: Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring',
 			authors:
-			'Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister', 			journal: 'IEEE Transactions on Visualization and Computer Graphics',
+			'Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister', 			
+			journal: 'Computer Graphics Forum (EuroVis 24, to appear)',
 			link: 'https://doi.org/10.1101/2024.04.11.589087',
 			vcg_link: 'https://vcg.seas.harvard.edu/publications/psudo',
 			teaser: '/psudo_teaser.jpg'
