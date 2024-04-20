@@ -19,6 +19,14 @@
 	const publicationsTitle = 'Publications';
 	const items = [
 		{
+			title: 'psudo: Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring',
+			authors:
+			'Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister', 			journal: 'IEEE Transactions on Visualization and Computer Graphics',
+			link: 'https://doi.org/10.1101/2024.04.11.589087',
+			vcg_link: 'https://vcg.seas.harvard.edu/publications/psudo',
+			teaser: '/psudo_teaser.jpg'
+		},
+		{
 			title: 'Vimo: Visual Analysis of Neuronal Connectivity Motifs',
 			authors:
 				'Jakob Troidl, Simon Warchol, Jinhan Choi, Jordan Matelsky, Nagaraju Dhanysai, Xueying Wang, Brock Wester, Donglai Wei, Jeff W Lichtman, Hanspeter Pfister, Johanna Beyer',
