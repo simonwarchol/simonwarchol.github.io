@@ -11,10 +11,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: build
-          path: build/
+          # this should match the `pages` option in your adapter-static options
+          path: './build'
 
   deploy:
     needs: build_site
