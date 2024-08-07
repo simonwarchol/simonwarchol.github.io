@@ -22,8 +22,8 @@
 			title: 'psudo: Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring',
 			authors:
 			'Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister', 			
-			journal: 'Computer Graphics Forum (EuroVis 24, to appear)',
-			link: 'https://doi.org/10.1101/2024.04.11.589087',
+			journal: 'Computer Graphics Forum (EuroVis 24), 43: e15103.',
+			link: 'https://doi.org/10.1111/cgf.15103',
 			vcg_link: 'https://vcg.seas.harvard.edu/publications/psudo',
 			teaser: '/psudo_teaser.jpg'
 		},
@@ -35,6 +35,15 @@
 			link: 'https://doi.org/10.1109/TVCG.2023.3327388',
 			vcg_link: 'https://vcg.seas.harvard.edu/publications/vimo',
 			teaser: '/vimo-teaser-02.png'
+		},
+		{
+			title: 'Beyond Generating Code: Evaluating GPT on a Data Visualization Course',
+			authors:
+			'Chen Zhu-Tian, Chenyang Zhang, Qianwen Wang, Jakob Troidl, Simon Warchol, Johanna Beyer, Nils Gehlenborg, Hanspeter Pfiste',
+			journal: '2023 IEEE VIS Workshop on Visualization Education, Literacy, and Activities (EduVis)',
+			link: 'https://doi.org/10.1109/EduVis60792.2023.00009',
+			vcg_link: 'https://vcg.seas.harvard.edu/publications/beyond-generating-code-evaluating-gpt-on-a-data-visualization-course',
+			teaser: '/beyond_teaser.png'
 		},
 		{
 			title:
@@ -156,7 +165,7 @@
 	<div class="home-section">
 		<h1 class="home-title">Simon Warchol</h1>
 		<div class="home-subtitle">
-			<span class="home-detail">PhD Candidate in Computer Science at Harvard University</span>
+			<span class="home-detail">PhD Candidate in Computer Science at Harvard University.</span>
 			<span class="home-detail"
 				>Advised by <a class="advisors" href="https://vcg.seas.harvard.edu/people/hanspeter-pfister"
 					>Hanspeter Pfister</a
@@ -178,7 +187,7 @@
 			>
 
 			<span class="home-detail">
-				<a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a> Steward.</span
+				<a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a> Financial Secretary.</span
 			>
 			<span class="home-detail"
 				>I was raised in <span class="cities">St. Louis, MO</span> and now live in
