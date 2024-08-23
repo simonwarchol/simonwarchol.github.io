@@ -3,12 +3,11 @@
 	import { PortfolioTitle } from '$lib/params';
 	import type { SocialLink, SocialMedia } from '$lib/utils';
 	import { useSocialMedia, useTitle } from '$lib/utils';
+	import Background from '$lib/components/Background/Background.svelte';
 	import _ from 'lodash';
 	import ExperienceCard from '$lib/components/PublicationCard.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
-	import 'perlin-contours-rs';
 	import { onMount } from 'svelte';
-	import { init } from 'perlin-contours-rs';
 
 	const title = '';
 
@@ -19,9 +18,10 @@
 	const publicationsTitle = 'Publications';
 	const items = [
 		{
-			title: 'psudo: Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring',
+			title:
+				'psudo: Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring',
 			authors:
-			'Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister', 			
+				'Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister',
 			journal: 'Computer Graphics Forum (EuroVis 24), 43: e15103.',
 			link: 'https://doi.org/10.1111/cgf.15103',
 			vcg_link: 'https://vcg.seas.harvard.edu/publications/psudo',
@@ -39,10 +39,12 @@
 		{
 			title: 'Beyond Generating Code: Evaluating GPT on a Data Visualization Course',
 			authors:
-			'Chen Zhu-Tian, Chenyang Zhang, Qianwen Wang, Jakob Troidl, Simon Warchol, Johanna Beyer, Nils Gehlenborg, Hanspeter Pfiste',
-			journal: '2023 IEEE VIS Workshop on Visualization Education, Literacy, and Activities (EduVis)',
+				'Chen Zhu-Tian, Chenyang Zhang, Qianwen Wang, Jakob Troidl, Simon Warchol, Johanna Beyer, Nils Gehlenborg, Hanspeter Pfiste',
+			journal:
+				'2023 IEEE VIS Workshop on Visualization Education, Literacy, and Activities (EduVis)',
 			link: 'https://doi.org/10.1109/EduVis60792.2023.00009',
-			vcg_link: 'https://vcg.seas.harvard.edu/publications/beyond-generating-code-evaluating-gpt-on-a-data-visualization-course',
+			vcg_link:
+				'https://vcg.seas.harvard.edu/publications/beyond-generating-code-evaluating-gpt-on-a-data-visualization-course',
 			teaser: '/beyond_teaser.png'
 		},
 		{
@@ -135,29 +137,12 @@
 
 		return !isBlank(email) && reg.test(email);
 	};
-	let canvas;
-
-	onMount(async () => {
-		if (navigator.gpu) {
-			try {
-				console.log('on mount');
-				await init(canvas).catch((error) => {
-					if (!error.message.startsWith('Using exceptions for control flow,')) {
-						throw error;
-					}
-				});
-			} catch (error) {
-				console.error(error);
-			}
-		}
-	});
 </script>
-
-<canvas bind:this={canvas} />
 
 <svelte:head>
 	<title>{useTitle(title, PortfolioTitle)}</title>
 </svelte:head>
+<Background />
 <div class="home" id="home-container">
 	<div class="home-section">
 		<div id="profile-image" class="profile-image" />
