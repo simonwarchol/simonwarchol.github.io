@@ -108,7 +108,7 @@
 			};
 
 			const currentTime = performance.now();
-			const elapsedTime = (currentTime - startTime) / 10000; // Convert to seconds
+			const elapsedTime = (currentTime - startTime) / 30000; // Convert to seconds
 
 			// Update the uniform based on elapsed time
 			uniformArray[0] = elapsedTime;
