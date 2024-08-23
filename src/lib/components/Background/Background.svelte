@@ -8,6 +8,7 @@
 	let canvas: HTMLCanvasElement;
 	let adapter: GPUAdapter;
 	let startTime: number;
+	let randomState = Math.random() * 1000;
 	onMount(async () => {
 		startTime = performance.now();
 		const entry = (navigator as any)?.gpu;
@@ -74,7 +75,7 @@
 			}
 		});
 
-		const uniformArray = new Float32Array([0.4]);
+		const uniformArray = new Float32Array([0]);
 		const uniformBuffer = device.createBuffer({
 			size: uniformArray.byteLength,
 			usage: GPUBufferUsage.UNIFORM | GPUBufferUsage.COPY_DST
@@ -111,7 +112,7 @@
 			const elapsedTime = (currentTime - startTime) / 30000; // Convert to seconds
 
 			// Update the uniform based on elapsed time
-			uniformArray[0] = elapsedTime;
+			uniformArray[0] = elapsedTime + randomState;
 
 			const commandEncoder = device.createCommandEncoder();
 			const passEncoder = commandEncoder.beginRenderPass(renderPassDescriptor);
