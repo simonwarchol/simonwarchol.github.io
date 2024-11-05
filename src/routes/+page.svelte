@@ -19,6 +19,16 @@
 	const items = [
 		{
 			title:
+				'Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models',
+			authors:
+				'Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo,Junsik Kim, Mahia Rahman, and Hanspeter Pfister',
+			journal: 'arXiv preprint',
+			link: 'https://doi.org/10.1111/cgf.15103',
+			vcg_link: 'https://doi.org/10.48550/arXiv.2410.04634',
+			// teaser: '/psudo_teaser.jpg'
+		},
+		{
+			title:
 				'psudo: Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring',
 			authors:
 				'Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister',
@@ -486,17 +496,4 @@
 			}
 		}
 	}
-
-	//@media (max-width: 875px) {
-	//  & {
-	//    flex-direction: column;
-	//    justify-content: center;
-	//  }
-	//
-	//  &-section {
-	//    flex: 0;
-	//    align-items: center;
-	//    text-align: center;
-	//  }
-	//}
 </style>
