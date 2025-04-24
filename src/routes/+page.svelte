@@ -19,10 +19,20 @@
 	const items = [
 		{
 			title:
+				'The State of Single-Cell Atlas Data Visualization in the Biological Literature',
+			authors:
+				'Mark S Keller, Eric Moerth, Thomas C Smits, Simon Warchol, Qianwen Wang, Robert Krueger, Hanspeter Pfister, Nils Gehlenborg',
+			journal: 'OSF Preprint',
+			link: 'https://doi.org/10.31219/osf.io/yt3xz_v2',
+			vcg_link: 'https://doi.org/10.31219/osf.io/yt3xz_v2',
+			// teaser: '/psudo_teaser.jpg'
+		},
+		{
+			title:
 				'Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models',
 			authors:
 				'Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo,Junsik Kim, Mahia Rahman, and Hanspeter Pfister',
-			journal: 'arXiv preprint',
+			journal: 'TMLR, 2025',
 			link: 'https://doi.org/10.1111/cgf.15103',
 			vcg_link: 'https://doi.org/10.48550/arXiv.2410.04634',
 			// teaser: '/psudo_teaser.jpg'

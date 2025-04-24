@@ -9,15 +9,17 @@
 </script>
 
 <Card margin="0px 0px 20px 0px" tiltDegree={2}>
-	<div class="experience">
-		<div class="experience-teaser">
-			<a href={experience.vcg_link} target="_blank">
-				<img class="teaser" src={experience.teaser} />
-			</a>
-		</div>
+	<div class="experience" class:no-teaser={!experience.teaser}>
+		{#if experience.teaser}
+			<div class="experience-teaser">
+				<a href={experience.link} target="_blank" rel="noopener noreferrer">
+					<img class="teaser" src={experience.teaser} alt={experience.title} />
+				</a>
+			</div>
+		{/if}
 
 		<div class="experience-data">
-			<a href={experience.vcg_link} target="_blank">
+			<a href={experience.link} target="_blank" rel="noopener noreferrer">
 				<h3 class="experience-title">
 					<CardTitle title={experience.title} />
 					<div class="experience-title-divider" />
@@ -42,7 +44,6 @@
 
 <style lang="scss">
 	.teaser {
-		//width: 600px;
 		height: auto;
 		min-width: 300px;
 		max-width: 300px;
@@ -60,6 +61,15 @@
 	.experience {
 		display: flex;
 		align-items: center;
+
+		&.no-teaser {
+			flex-direction: column;
+			align-items: flex-start;
+
+			.experience-data {
+				margin-left: 0;
+			}
+		}
 
 		&-data {
 			display: flex;
