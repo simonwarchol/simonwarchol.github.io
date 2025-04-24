@@ -8,7 +8,7 @@
 	<slot />
 </div>
 <div class="footer">
-	<h3 class="color-gradient">© 2024 Simon Warchol</h3>
+	<h3 class="color-gradient">© 2025 Simon Warchol</h3>
 </div>
 
 <style lang="scss">
