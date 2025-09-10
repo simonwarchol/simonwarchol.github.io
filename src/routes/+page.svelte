@@ -18,13 +18,20 @@
 	const publicationsTitle = 'Publications';
 	const items = [
 		{
-			title:
-				'The State of Single-Cell Atlas Data Visualization in the Biological Literature',
+			title: 'SEAL: Spatially-resolved Embedding Analysis with Linked Imaging Data',
+			authors:
+				'Simon Warchol, Grace Guo, Johannes Knittel, Dan Freeman, Usha Bhalla, Jeremy L Muhlich, Peter K Sorger, Hanspeter Pfister',
+			journal: 'IEEE Transactions on Visualization and Computer Graphics (To Appear)',
+			link: 'http://doi.org/10.1101/2025.07.19.665696',
+			vcg_link: 'http://doi.org/10.1101/2025.07.19.665696'
+		},
+		{
+			title: 'The State of Single-Cell Atlas Data Visualization in the Biological Literature',
 			authors:
 				'Mark S Keller, Eric Moerth, Thomas C Smits, Simon Warchol, Qianwen Wang, Robert Krueger, Hanspeter Pfister, Nils Gehlenborg',
-			journal: 'OSF Preprint',
-			link: 'https://doi.org/10.31219/osf.io/yt3xz_v2',
-			vcg_link: 'https://doi.org/10.31219/osf.io/yt3xz_v2',
+			journal: 'IEEE Computer Graphics and Applications (2025)',
+			link: 'https://doi.org/10.1109/MCG.2025.3583979',
+			vcg_link: 'https://doi.org/10.1109/MCG.2025.3583979'
 			// teaser: '/psudo_teaser.jpg'
 		},
 		{
@@ -34,7 +41,7 @@
 				'Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo,Junsik Kim, Mahia Rahman, and Hanspeter Pfister',
 			journal: 'TMLR, 2025',
 			link: 'https://doi.org/10.1111/cgf.15103',
-			vcg_link: 'https://doi.org/10.48550/arXiv.2410.04634',
+			vcg_link: 'https://doi.org/10.48550/arXiv.2410.04634'
 			// teaser: '/psudo_teaser.jpg'
 		},
 		{
