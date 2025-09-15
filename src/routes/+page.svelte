@@ -23,7 +23,8 @@
 				'Simon Warchol, Grace Guo, Johannes Knittel, Dan Freeman, Usha Bhalla, Jeremy L Muhlich, Peter K Sorger, Hanspeter Pfister',
 			journal: 'IEEE Transactions on Visualization and Computer Graphics (To Appear)',
 			link: 'http://doi.org/10.1101/2025.07.19.665696',
-			vcg_link: 'http://doi.org/10.1101/2025.07.19.665696'
+			vcg_link: 'http://doi.org/10.1101/2025.07.19.665696',
+			teaser: '/seal_teaser.jpg'
 		},
 		{
 			title: 'The State of Single-Cell Atlas Data Visualization in the Biological Literature',
@@ -31,18 +32,18 @@
 				'Mark S Keller, Eric Moerth, Thomas C Smits, Simon Warchol, Qianwen Wang, Robert Krueger, Hanspeter Pfister, Nils Gehlenborg',
 			journal: 'IEEE Computer Graphics and Applications (2025)',
 			link: 'https://doi.org/10.1109/MCG.2025.3583979',
-			vcg_link: 'https://doi.org/10.1109/MCG.2025.3583979'
-			// teaser: '/psudo_teaser.jpg'
+			vcg_link: 'https://doi.org/10.1109/MCG.2025.3583979',
+			teaser: '/star.jpg'
 		},
 		{
 			title:
 				'Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models',
 			authors:
 				'Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo,Junsik Kim, Mahia Rahman, and Hanspeter Pfister',
-			journal: 'TMLR, 2025',
-			link: 'https://doi.org/10.1111/cgf.15103',
-			vcg_link: 'https://doi.org/10.48550/arXiv.2410.04634'
-			// teaser: '/psudo_teaser.jpg'
+			journal: 'Transactions on Machine Learning Research (2835-8856), 2025',
+			link: 'https://openreview.net/pdf?id=mk1YIkVvTQ',
+			vcg_link: 'https://openreview.net/pdf?id=mk1YIkVvTQ',
+			teaser: '/is_what_you_see_teaser.jpg'
 		},
 		{
 			title:
@@ -177,37 +178,43 @@
 	<div class="home-section">
 		<h1 class="home-title">Simon Warchol</h1>
 		<div class="home-subtitle">
-			<span class="home-detail">PhD Candidate in Computer Science at Harvard University.</span>
 			<span class="home-detail"
-				>Advised by <a class="advisors" href="https://vcg.seas.harvard.edu/people/hanspeter-pfister"
-					>Hanspeter Pfister</a
+				>PhD Candidate in Computer Science at Harvard University advised by <a
+					class="advisors"
+					href="https://vcg.seas.harvard.edu/people/hanspeter-pfister">Hanspeter Pfister</a
 				>
-				and co-advised by
+				and
 				<a class="advisors" href="https://sysbio.med.harvard.edu/peter-sorger">Peter Sorger</a
 				>.</span
 			>
+			<span class="home-detail">
+				My research focuses on <span class="emphasis">visual analytics</span> and
+				<span class="emphasis">visualization</span> for
+				<span class="emphasis">cancer biology</span>. More specifically, I develop interactive
+				visualization and analysis methods that integrate
+				<span class="emphasis">interpretable machine learning</span>
+				with
+				<span class="emphasis">human-in-the-loop</span> workflows to make complex biomedical imaging
+				and single-cell data more understandable.
+			</span>
 			<span class="home-detail"
-				>My research focuses on <span class="emphasis">visual analytics</span> and
-				<span class="emphasis">visualization</span>
-				for <span class="emphasis">cancer biology</span>.</span
-			>
-			<span class="home-detail"
-				>Member of
-				<a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> and the
-				<a class="groups" href="https://labsyspharm.org/">Laboratory of Systems Pharmacology</a
-				>.</span
+				>I am a member of both the
+				<a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at the
+				Harvard School of Engineering and Applied Sciences and the
+				<a class="groups" href="https://labsyspharm.org/">Laboratory of Systems Pharmacology</a> at Harvard
+				Medical School.</span
 			>
 
-			<span class="home-detail">
-				<a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a> Financial Secretary.</span
-			>
-			<span class="home-detail"
-				>I was raised in <span class="cities">St. Louis, MO</span> and now live in
-				<span class="cities">Cambridge, MA</span>.</span
-			>
 			<span class="home-detail">I have some other interests. They include:</span>
 		</div>
 		<ul class="interests-list">
+			<li>
+				Local Politics: I am a
+				<a href="https://gblc.us/">Greater Boston Labor Council</a> delegate, the
+				<a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a>
+				Financial Secretary and > and a voting member of the
+				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council.
+			</li>
 			<li>
 				Sad Indie Music: <a href="https://www.youtube.com/watch?v=UtQlRpZlN-w">Lucy Dacus</a>,
 				<a href="https://www.youtube.com/watch?v=uWd0EWKpH94&t=6942s">The National</a>,
@@ -215,21 +222,8 @@
 				<a href="https://www.youtube.com/watch?v=vTZhG9YSY_c">Slowdive</a>,
 				<a href="https://www.youtube.com/watch?v=Z_ypVHGa1vM">Destroyer</a>.
 			</li>
-			<li>
-				Local Politics: I am a
-				<a href="https://gblc.us/">Greater Boston Labor Council</a> delegate and a voting member of
-				the
-				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council.
-			</li>
-
-			<!-- <li>
-				Beer: <a href="https://lamplighterbrewing.com/">Lamplighter</a>,
-				<a href="https://vitaminseabrewing.com/">Vitamin Sea</a>,
-				<a href="https://www.sideprojectbrewing.com/">Side Project</a>,
-				<a href="https://oxbowbeer.com/">Oxbow</a>.
-			</li> -->
 			<li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
-			<li>My 2009 Prius.</li>
+			<li>My Prius.</li>
 		</ul>
 
 		<div class="home-social">
