@@ -10,15 +10,28 @@
 	onMount(() => {
 		const updateTiles = () => {
 			if (containerElement) {
-				containerHeight = containerElement.clientHeight;
-				svgHeight = containerElement.querySelector('svg')?.clientHeight || 0;
-				if (svgHeight > 0) {
-					tiles = Math.ceil(containerHeight / svgHeight);
+				// Get the height of the about me section (right side content)
+				const aboutMeSection = document.querySelector('.home-section:last-child');
+				const aboutMeHeight = aboutMeSection?.clientHeight || 0;
+				
+				// Get the height of a single SVG
+				const firstSvg = containerElement.querySelector('svg');
+				if (firstSvg) {
+					svgHeight = firstSvg.clientHeight;
+					
+					// Only add tiles if they fit completely within the about me height
+					if (aboutMeHeight > 0 && svgHeight > 0) {
+						const maxTiles = Math.floor(aboutMeHeight / svgHeight);
+						tiles = Math.max(1, maxTiles); // At least 1 tile
+					} else {
+						tiles = 1;
+					}
 				}
 			}
 		};
 		
-		updateTiles();
+		// Wait a bit for the layout to settle, then update
+		setTimeout(updateTiles, 100);
 		window.addEventListener('resize', updateTiles);
 		
 		return () => {
@@ -335,11 +348,11 @@
 <style>
 	.profile-container {
 		width: 100%;
-		height: 100%;
 		max-width: 35vw;
 		display: flex;
 		flex-direction: column;
 		overflow: hidden;
+		/* Don't set height to 100% - let it size based on content */
 	}
 
 	.profile-svg {
