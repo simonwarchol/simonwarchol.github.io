@@ -184,7 +184,7 @@
 					href="https://vcg.seas.harvard.edu/people/hanspeter-pfister">Hanspeter Pfister</a
 				>
 				and
-				<a class="advisors" href="https://sysbio.med.harvard.edu/peter-sorger">Peter Sorger</a
+				<a class="advisors" href="http://sorger.med.harvard.edu/">Peter Sorger</a
 				>.</span
 			>
 			<span class="home-detail">
@@ -209,18 +209,19 @@
 		</div>
 		<ul class="interests-list">
 			<li>
-				Local Politics: I am a
+				Local Politics and Labor: I am a
 				<a href="https://gblc.us/">Greater Boston Labor Council</a> delegate, the
 				<a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a>
-				Financial Secretary and > and a voting member of the
-				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council.
+				Financial Secretary and a voting member of the
+				<a href="https://uaw.org/regions/uaw-region-9a/"> UAW Region 9A</a> Massachusetts CAP Council.
 			</li>
 			<li>
-				Sad Indie Music: <a href="https://www.youtube.com/watch?v=UtQlRpZlN-w">Lucy Dacus</a>,
-				<a href="https://www.youtube.com/watch?v=uWd0EWKpH94&t=6942s">The National</a>,
-				<a href="https://www.youtube.com/watch?v=G7aK0kNhQ20">The Beths</a>,
-				<a href="https://www.youtube.com/watch?v=vTZhG9YSY_c">Slowdive</a>,
-				<a href="https://www.youtube.com/watch?v=Z_ypVHGa1vM">Destroyer</a>.
+				Sad Indie Music: <a href="https://youtu.be/uWd0EWKpH94?si=6VQMPWwmpavmRC9Y&t=4584">¹</a>
+				<a href="https://www.youtube.com/watch?v=5-t0udIMKQ0">²</a> 
+				<a href="https://www.youtube.com/watch?v=G7aK0kNhQ20">³</a> 
+				<a href="https://www.youtube.com/watch?v=vTZhG9YSY_c">⁴</a> 
+				<a href="https://www.youtube.com/watch?v=k80nQyBjmyo">⁵</a>.
+
 			</li>
 			<li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
 			<li>My Prius.</li>
