@@ -7,6 +7,7 @@
 	import _ from 'lodash';
 	import ExperienceCard from '$lib/components/PublicationCard.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
+	import ProfileImage from '$lib/components/ProfileImage.svelte';
 	import { onMount } from 'svelte';
 
 	const title = '';
@@ -170,10 +171,10 @@
 <svelte:head>
 	<title>{useTitle(title, PortfolioTitle)}</title>
 </svelte:head>
-<Background />
+<!-- <Background /> -->
 <div class="home" id="home-container">
 	<div class="home-section">
-		<div id="profile-image" class="profile-image" />
+		<ProfileImage blinkInterval={4} blinkDuration={0.15} doubleBlink={true} />
 	</div>
 	<div class="home-section">
 		<h1 class="home-title">Simon Warchol</h1>
@@ -184,8 +185,7 @@
 					href="https://vcg.seas.harvard.edu/people/hanspeter-pfister">Hanspeter Pfister</a
 				>
 				and
-				<a class="advisors" href="http://sorger.med.harvard.edu/">Peter Sorger</a
-				>.</span
+				<a class="advisors" href="http://sorger.med.harvard.edu/">Peter Sorger</a>.</span
 			>
 			<span class="home-detail">
 				My research focuses on <span class="emphasis">visual analytics</span> and
@@ -217,11 +217,10 @@
 			</li>
 			<li>
 				Sad Indie Music: <a href="https://youtu.be/uWd0EWKpH94?si=6VQMPWwmpavmRC9Y&t=4584">¹</a>
-				<a href="https://www.youtube.com/watch?v=5-t0udIMKQ0">²</a> 
-				<a href="https://www.youtube.com/watch?v=G7aK0kNhQ20">³</a> 
-				<a href="https://www.youtube.com/watch?v=vTZhG9YSY_c">⁴</a> 
+				<a href="https://www.youtube.com/watch?v=5-t0udIMKQ0">²</a>
+				<a href="https://www.youtube.com/watch?v=G7aK0kNhQ20">³</a>
+				<a href="https://www.youtube.com/watch?v=vTZhG9YSY_c">⁴</a>
 				<a href="https://www.youtube.com/watch?v=k80nQyBjmyo">⁵</a>.
-
 			</li>
 			<li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
 			<li>My Prius.</li>
@@ -308,18 +307,6 @@
 		overflow: hidden;
 	}
 
-	#profile-image {
-		background-image: url('/profile.png');
-		width: 100%;
-		height: 100%;
-		//width: 600px;
-		//height: 600px;
-		max-width: 35vw;
-		background-size: contain;
-		//background-size: auto 100%;
-		background-position: center;
-		background-repeat: space;
-	}
 
 	.home-section {
 		flex-grow: 1;
