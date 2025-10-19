@@ -216,7 +216,7 @@
 				<a href="https://uaw.org/regions/uaw-region-9a/"> UAW Region 9A</a> Massachusetts CAP Council.
 			</li>
 			<li>
-				Sad Indie Music: <a href="https://youtu.be/uWd0EWKpH94?si=6VQMPWwmpavmRC9Y&t=4584">¹</a>
+				Sad Indie Rock: <a href="https://youtu.be/uWd0EWKpH94?si=6VQMPWwmpavmRC9Y&t=4584">¹</a>
 				<a href="https://www.youtube.com/watch?v=5-t0udIMKQ0">²</a>
 				<a href="https://www.youtube.com/watch?v=G7aK0kNhQ20">³</a>
 				<a href="https://www.youtube.com/watch?v=vTZhG9YSY_c">⁴</a>
