@@ -177,33 +177,35 @@
 		<ProfileImage blinkInterval={4} blinkDuration={0.15} doubleBlink={true} />
 	</div>
 	<div class="home-section">
-		<h1 class="home-title">Simon Warchol</h1>
+		<h1 class="home-title">
+			Simon Warchol<sup>¹</sup>
+		</h1>
 		<div class="home-subtitle">
 			<span class="home-detail"
-				>PhD Candidate in Computer Science at Harvard University advised by <a
+				>I received my PhD in Computer Science from <a class="groups" href="https://seas.harvard.edu/">Harvard University</a> in 2025. My thesis,
+				"Visualization and Interpretability for Multiplexed Spatial Biology," was advised by <a
 					class="advisors"
-					href="https://vcg.seas.harvard.edu/people/hanspeter-pfister">Hanspeter Pfister</a
+					href="https://en.wikipedia.org/wiki/Hanspeter_Pfister">Hanspeter Pfister</a
 				>
-				and
-				<a class="advisors" href="http://sorger.med.harvard.edu/">Peter Sorger</a>.</span
+				and coadvised by
+				<a class="advisors" href="https://en.wikipedia.org/wiki/Peter_Karl_Sorger">Peter Sorger</a
+				>.</span
+			>
+			<span class="home-detail"
+				>I am now a Postdoctoral Fellow in the <a class="groups" href="https://labsyspharm.org/"
+					>Laboratory of Systems Pharmacology</a
+				> at <a class="groups" href="https://hms.harvard.edu/">Harvard Medical School</a>.</span
 			>
 			<span class="home-detail">
-				My research focuses on <span class="emphasis">visual analytics</span> and
-				<span class="emphasis">visualization</span> for
-				<span class="emphasis">cancer biology</span>. More specifically, I develop interactive
-				visualization and analysis methods that integrate
-				<span class="emphasis">interpretable machine learning</span>
-				with
-				<span class="emphasis">human-in-the-loop</span> workflows to make complex biomedical imaging
-				and single-cell data more understandable.
+				My research develops scalable <span class="emphasis">visualization</span> and
+				<span class="emphasis">interpretability</span> methods for multiplexed tissue imaging and spatial single-cell
+				data, often in cancer. 
+				I build interactive systems that preserve <span class="emphasis">spatial context</span>
+				and link tissue morphology to quantitative and model-derived analyses. 
+				I’m especially interested in methods
+				that make foundation models interpretable in image context, and in tools that enable
+				<span class="emphasis">reproducible collaboration</span>.
 			</span>
-			<span class="home-detail"
-				>I am a member of both the
-				<a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> at the
-				Harvard School of Engineering and Applied Sciences and the
-				<a class="groups" href="https://labsyspharm.org/">Laboratory of Systems Pharmacology</a> at Harvard
-				Medical School.</span
-			>
 
 			<span class="home-detail">I have some other interests. They include:</span>
 		</div>
@@ -225,6 +227,18 @@
 			<li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
 			<li>My Prius.</li>
 		</ul>
+
+		<div class="footnote-section">
+			<span id="warchol-footnote" class="footnote">
+				<sup>¹</sup> Derived from the Polish
+				<a
+					href="https://en.wiktionary.org/wiki/warcho%C5%82"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="footnote-link">warchoł</a
+				>, meaning "brawler, troublemaker, firebrand."
+			</span>
+		</div>
 
 		<div class="home-social">
 			{#each links as link}
@@ -307,7 +321,6 @@
 		overflow: hidden;
 	}
 
-
 	.home-section {
 		flex-grow: 1;
 		width: 100%;
@@ -327,6 +340,29 @@
 
 		a {
 			color: #76b1e2;
+		}
+	}
+
+	.footnote-section {
+		margin-top: 1em;
+		font-size: 0.9em;
+		color: var(--accent-text-c);
+	}
+
+	.footnote {
+		display: inline-block;
+
+		sup {
+			font-size: 0.8em;
+		}
+	}
+
+	.footnote-link {
+		color: #76b1e2;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
 		}
 	}
 
@@ -363,6 +399,10 @@
 			font-size: 2.7em;
 			font-weight: 900;
 			//letter-spacing: 2px;
+
+			sup {
+				color: var(--accent-text-c);
+			}
 		}
 
 		&-subtitle {
