@@ -182,10 +182,14 @@
 		</h1>
 		<div class="home-subtitle">
 			<span class="home-detail"
-				>I received my PhD in Computer Science from <a class="groups" href="https://seas.harvard.edu/">Harvard University</a> in 2025. My thesis,
-				"Visualization and Interpretability for Multiplexed Spatial Biology," was advised by <a
-					class="advisors"
-					href="https://en.wikipedia.org/wiki/Hanspeter_Pfister">Hanspeter Pfister</a
+				>I received my PhD in Computer Science from <a
+					class="groups"
+					href="https://seas.harvard.edu/">Harvard University</a
+				>
+				in 2025. My thesis, "Visualization and Interpretability for Multiplexed Spatial Biology," was
+				advised by
+				<a class="advisors" href="https://en.wikipedia.org/wiki/Hanspeter_Pfister"
+					>Hanspeter Pfister</a
 				>
 				and coadvised by
 				<a class="advisors" href="https://en.wikipedia.org/wiki/Peter_Karl_Sorger">Peter Sorger</a
@@ -194,17 +198,14 @@
 			<span class="home-detail"
 				>I am now a Postdoctoral Fellow in the <a class="groups" href="https://labsyspharm.org/"
 					>Laboratory of Systems Pharmacology</a
-				> at <a class="groups" href="https://hms.harvard.edu/">Harvard Medical School</a>.</span
+				>
+				at <a class="groups" href="https://hms.harvard.edu/">Harvard Medical School</a>.</span
 			>
 			<span class="home-detail">
-				My research develops scalable <span class="emphasis">visualization</span> and
-				<span class="emphasis">interpretability</span> methods for multiplexed tissue imaging and spatial single-cell
-				data, often in cancer. 
-				I build interactive systems that preserve <span class="emphasis">spatial context</span>
-				and link tissue morphology to quantitative and model-derived analyses. 
-				I’m especially interested in methods
-				that make foundation models interpretable in image context, and in tools that enable
-				<span class="emphasis">reproducible collaboration</span>.
+				My research develops scalable visualization, interpretability, and computational methods for
+				multiplexed tissue imaging data. I’m particularly interested in making machine learning
+				models interpretable in their spatial and morphological context, and in tools that support
+				collaboration, communication, and reproducibility.
 			</span>
 
 			<span class="home-detail">I have some other interests. They include:</span>
