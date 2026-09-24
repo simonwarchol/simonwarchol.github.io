@@ -40,7 +40,7 @@
 			title:
 				'Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models',
 			authors:
-				'Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo,Junsik Kim, Mahia Rahman, and Hanspeter Pfister',
+				'Salma Abdel Magid, Weiwei Pan, Simon Warchol, Grace Guo, Junsik Kim, Mahia Rahman, and Hanspeter Pfister',
 			journal: 'Transactions on Machine Learning Research (2835-8856), 2025',
 			link: 'https://openreview.net/pdf?id=mk1YIkVvTQ',
 			vcg_link: 'https://openreview.net/pdf?id=mk1YIkVvTQ',
@@ -59,7 +59,7 @@
 		{
 			title: 'Vimo: Visual Analysis of Neuronal Connectivity Motifs',
 			authors:
-				'Jakob Troidl, Simon Warchol, Jinhan Choi, Jordan Matelsky, Nagaraju Dhanysai, Xueying Wang, Brock Wester, Donglai Wei, Jeff W Lichtman, Hanspeter Pfister, Johanna Beyer',
+				'Jakob Troidl, Simon Warchol, Jinhan Choi, Jordan Matelsky, Nagaraju Dhanyasi, Xueying Wang, Brock Wester, Donglai Wei, Jeff W Lichtman, Hanspeter Pfister, Johanna Beyer',
 			journal: 'IEEE Transactions on Visualization and Computer Graphics',
 			link: 'https://doi.org/10.1109/TVCG.2023.3327388',
 			vcg_link: 'https://vcg.seas.harvard.edu/publications/vimo',
@@ -68,7 +68,7 @@
 		{
 			title: 'Beyond Generating Code: Evaluating GPT on a Data Visualization Course',
 			authors:
-				'Chen Zhu-Tian, Chenyang Zhang, Qianwen Wang, Jakob Troidl, Simon Warchol, Johanna Beyer, Nils Gehlenborg, Hanspeter Pfiste',
+				'Chen Zhu-Tian, Chenyang Zhang, Qianwen Wang, Jakob Troidl, Simon Warchol, Johanna Beyer, Nils Gehlenborg, Hanspeter Pfister',
 			journal:
 				'2023 IEEE VIS Workshop on Visualization Education, Literacy, and Activities (EduVis)',
 			link: 'https://doi.org/10.1109/EduVis60792.2023.00009',
@@ -101,7 +101,7 @@
 			authors:
 				'Jared Jessup, Robert Krueger, Simon Warchol, John Hoffer, Jeremy Muhlich, Cecily C Ritch, Giorgio Gaglia, Shannon Coy, Yu-An Chen, Jia-Ren Lin, Sandro Santagata, Peter K Sorger, Hanspeter Pfister',
 			title:
-				'Scope2Screen: focus+ context techniques for pathology tumor assessment in multivariate image data',
+				'Scope2Screen: focus+context techniques for pathology tumor assessment in multivariate image data',
 			journal:
 				'IEEE Transactions on Visualization and Computer Graphics. 2022 Jan; 28(1): 259–269.',
 			link: 'https://ieeexplore.ieee.org/document/9557792',
@@ -190,16 +190,14 @@
 				advised by
 				<a class="advisors" href="https://en.wikipedia.org/wiki/Hanspeter_Pfister"
 					>Hanspeter Pfister</a
-				>
-				and coadvised by
-				<a class="advisors" href="https://en.wikipedia.org/wiki/Peter_Karl_Sorger">Peter Sorger</a
-				>.</span
-			>
+				>.
 			<span class="home-detail"
-				>I am now a Postdoctoral Fellow in the <a class="groups" href="https://labsyspharm.org/"
+				>I am now a Research Scientist and Postdoctoral Fellow in the <a class="groups" href="https://labsyspharm.org/"
 					>Laboratory of Systems Pharmacology</a
 				>
-				at <a class="groups" href="https://hms.harvard.edu/">Harvard Medical School</a>.</span
+				at <a class="groups" href="https://hms.harvard.edu/">Harvard Medical School</a>, working with
+				<a class="advisors" href="https://en.wikipedia.org/wiki/Peter_Karl_Sorger">Peter Sorger</a
+				>.</span.</span
 			>
 			<span class="home-detail">
 				My research develops scalable visualization, interpretability, and computational methods for
@@ -212,11 +210,10 @@
 		</div>
 		<ul class="interests-list">
 			<li>
-				Local Politics and Labor: I am a
-				<a href="https://gblc.us/">Greater Boston Labor Council</a> delegate, the
-				<a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a>
-				Financial Secretary and a voting member of the
-				<a href="https://uaw.org/regions/uaw-region-9a/"> UAW Region 9A</a> Massachusetts CAP Council.
+				Local Politics and Labor: I am a voting member of the
+				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council and formerly
+				served as the Financial Secretary for 
+				<a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a>.
 			</li>
 			<li>
 				Sad Indie Rock: <a href="https://youtu.be/uWd0EWKpH94?si=6VQMPWwmpavmRC9Y&t=4584">¹</a>
@@ -226,7 +223,7 @@
 				<a href="https://www.youtube.com/watch?v=k80nQyBjmyo">⁵</a>.
 			</li>
 			<li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
-			<li>My Prius.</li>
+			<li>My Toyota Prius.</li>
 		</ul>
 
 		<div class="footnote-section">
