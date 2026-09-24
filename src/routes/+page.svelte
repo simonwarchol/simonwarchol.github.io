@@ -191,14 +191,15 @@
 				<a class="advisors" href="https://en.wikipedia.org/wiki/Hanspeter_Pfister"
 					>Hanspeter Pfister</a
 				>.
+			</span>
 			<span class="home-detail"
 				>I am now a Research Scientist and Postdoctoral Fellow in the <a class="groups" href="https://labsyspharm.org/"
 					>Laboratory of Systems Pharmacology</a
 				>
 				at <a class="groups" href="https://hms.harvard.edu/">Harvard Medical School</a>, working with
 				<a class="advisors" href="https://en.wikipedia.org/wiki/Peter_Karl_Sorger">Peter Sorger</a
-				>.</span.</span
-			>
+				>.
+			</span>
 			<span class="home-detail">
 				My research develops scalable visualization, interpretability, and computational methods for
 				multiplexed tissue imaging data. I’m particularly interested in making machine learning
@@ -212,7 +213,7 @@
 			<li>
 				Local Politics and Labor: I am a voting member of the
 				<a href="https://uaw.org/regions/uaw-region-9a/">UAW Region 9A</a> Massachusetts CAP Council and formerly
-				served as the Financial Secretary for 
+				served as the Financial Secretary for
 				<a class="groups" href="https://harvardgradunion.org/">HGSU/UAW Local 5118</a>.
 			</li>
 			<li>
