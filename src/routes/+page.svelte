@@ -182,6 +182,14 @@
 		</h1>
 		<div class="home-subtitle">
 			<span class="home-detail"
+				>I am a Research Scientist and Postdoctoral Fellow in the <a class="groups" href="https://labsyspharm.org/"
+					>Laboratory of Systems Pharmacology</a
+				>
+				at <a class="groups" href="https://hms.harvard.edu/">Harvard Medical School</a>, working with
+				<a class="advisors" href="https://en.wikipedia.org/wiki/Peter_Karl_Sorger">Peter Sorger</a
+				>.
+			</span>
+			<span class="home-detail"
 				>I received my PhD in Computer Science from <a
 					class="groups"
 					href="https://seas.harvard.edu/">Harvard University</a
@@ -190,14 +198,6 @@
 				advised by
 				<a class="advisors" href="https://en.wikipedia.org/wiki/Hanspeter_Pfister"
 					>Hanspeter Pfister</a
-				>.
-			</span>
-			<span class="home-detail"
-				>I am now a Research Scientist and Postdoctoral Fellow in the <a class="groups" href="https://labsyspharm.org/"
-					>Laboratory of Systems Pharmacology</a
-				>
-				at <a class="groups" href="https://hms.harvard.edu/">Harvard Medical School</a>, working with
-				<a class="advisors" href="https://en.wikipedia.org/wiki/Peter_Karl_Sorger">Peter Sorger</a
 				>.
 			</span>
 			<span class="home-detail">
